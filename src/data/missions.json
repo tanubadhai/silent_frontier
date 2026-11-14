@@ -1,0 +1,501 @@
+[
+  {
+    "id": "voyager-1",
+    "name": "Voyager 1",
+    "agency": [
+      "NASA",
+      "JPL"
+    ],
+    "destinations": [
+      "Jupiter",
+      "Saturn",
+      "Interstellar Space"
+    ],
+    "mission_category": "Deep Space Probe",
+    "timeline": {
+      "launch_date": "1977-09-05",
+      "last_contact_date": null,
+      "end_date": null
+    },
+    "status": {
+      "mission_status": "Active",
+      "spacecraft_status": "Partially Operational",
+      "description": "Currently exploring interstellar space beyond the heliopause. Several scientific instruments have been powered down to conserve the decaying plutonium power supply, but the spacecraft continues to transmit telemetry and data."
+    },
+    "science": {
+      "objectives": [
+        "Conduct close-up studies of Jupiter and Saturn, their rings, and their larger moons.",
+        "Explore the outermost edge of the sun's domain (the heliosphere) and transition into interstellar space."
+      ],
+      "discoveries": [
+        {
+          "description": "Discovered active volcanism on Jupiter's moon Io.",
+          "source_url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+        },
+        {
+          "description": "Became the first human-made object to cross the heliopause and directly measure the interstellar medium.",
+          "source_url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+        }
+      ],
+      "legacy": "Voyager 1 fundamentally reshaped humanity's understanding of the outer solar system. It stands as our farthest emissary, carrying the Golden Record as a timeless greeting to the cosmos."
+    },
+    "hardware_entities": [
+      {
+        "item_name": "Voyager 1 Spacecraft Bus",
+        "type": "Travelling Spacecraft",
+        "location": "Interstellar Space (Direction of constellation Ophiuchus)",
+        "condition": "Partially Operational"
+      },
+      {
+        "item_name": "The Golden Record",
+        "type": "Attached Component",
+        "location": "Mounted to the spacecraft bus",
+        "condition": "Intact"
+      }
+    ],
+    "metrics": {
+      "mass": {
+        "value": 723,
+        "unit": "kg",
+        "mass_type": "Launch Mass"
+      },
+      "distance_from_earth": null
+    },
+    "general_sources": [
+      "https://science.nasa.gov/mission/voyager/voyager-1/",
+      "https://voyager.jpl.nasa.gov/mission/status/"
+    ]
+  },
+  {
+    "id": "alsep",
+    "name": "Apollo Lunar Surface Experiments Package (ALSEP)",
+    "agency": [
+      "NASA"
+    ],
+    "destinations": [
+      "The Moon"
+    ],
+    "mission_category": "Surface Payload",
+    "timeline": {
+      "launch_date": "1969-11-14",
+      "last_contact_date": "1977-09-30",
+      "end_date": "1977-09-30",
+      "first_deployment_date": "1969-11-19"
+    },
+    "status": {
+      "mission_status": "Completed",
+      "spacecraft_status": "Inactive",
+      "description": "The ALSEP stations deployed during the Apollo 12, 14, 15, 16, and 17 missions operated for years on the lunar surface, beaming back continuous telemetry. Funding cuts led to NASA commanding all remaining active ALSEP stations off simultaneously on September 30, 1977."
+    },
+    "science": {
+      "objectives": [
+        "Monitor the lunar environment continuously after astronauts departed.",
+        "Measure lunar seismic activity, heat flow, solar wind, and the lunar atmosphere."
+      ],
+      "discoveries": [
+        {
+          "description": "Recorded numerous 'moonquakes' revealing the Moon's internal structure is layered much like Earth's.",
+          "source_url": "https://science.nasa.gov/lunar-science/alsep/"
+        },
+        {
+          "description": "Determined that the Moon has a very tenuous, localized exosphere rather than a true atmosphere.",
+          "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/alsep.html"
+        }
+      ],
+      "legacy": "ALSEP established the first permanent scientific monitoring network on another celestial body, redefining our understanding of lunar geophysics."
+    },
+    "hardware_entities": [
+      {
+        "item_name": "Multiple ALSEP Central Stations and Instruments",
+        "type": "Abandoned Surface Hardware",
+        "location": "Multiple Apollo Landing Sites (Apollo 12, 14, 15, 16, and 17)",
+        "condition": "Inactive"
+      }
+    ],
+    "metrics": {
+      "mass": null,
+      "distance_from_earth": null
+    },
+    "general_sources": [
+      "https://nssdc.gsfc.nasa.gov/planetary/lunar/alsep.html",
+      "https://www.hq.nasa.gov/alsj/alsep.html"
+    ]
+  },
+  {
+    "id": "surveyor-3",
+    "name": "Surveyor 3",
+    "agency": [
+      "NASA",
+      "JPL"
+    ],
+    "destinations": [
+      "The Moon (Oceanus Procellarum)"
+    ],
+    "mission_category": "Lunar Lander",
+    "timeline": {
+      "launch_date": "1967-04-17",
+      "last_contact_date": "1967-05-04",
+      "end_date": "1967-05-04"
+    },
+    "status": {
+      "mission_status": "Completed",
+      "spacecraft_status": "Inactive",
+      "description": "Surveyor 3 successfully landed in Oceanus Procellarum and operated until the first lunar night. Contact was lost on May 4, 1967. It is uniquely notable for being visited by Apollo 12 astronauts two years later, who removed select parts to return to Earth for exposure analysis."
+    },
+    "science": {
+      "objectives": [
+        "Perform a soft landing on the Moon to prove the technology for the upcoming Apollo missions.",
+        "Take high-resolution television pictures of the lunar surface.",
+        "Test lunar soil mechanics using a surface sampling scoop."
+      ],
+      "discoveries": [
+        {
+          "description": "Proved that the lunar surface was solid enough to safely support a crewed lander.",
+          "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A"
+        },
+        {
+          "description": "The soil mechanics surface sampler dug trenches up to 17.5 cm deep, characterizing the lunar regolith's granular, cohesive nature.",
+          "source_url": "https://science.nasa.gov/mission/surveyor-3/"
+        }
+      ],
+      "legacy": "Surveyor 3 paved the way for human exploration of the Moon and remains the only robotic probe visited by humans on another world."
+    },
+    "hardware_entities": [
+      {
+        "item_name": "Surveyor 3 Lander Chassis",
+        "type": "Abandoned Surface Hardware",
+        "location": "Oceanus Procellarum (3.015° S, 23.418° W)",
+        "condition": "Inactive (Camera and Scoop removed by Apollo 12)"
+      }
+    ],
+    "metrics": {
+      "mass": {
+        "value": 296,
+        "unit": "kg",
+        "mass_type": "Landed Mass"
+      },
+      "distance_from_earth": null
+    },
+    "general_sources": [
+      "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A"
+    ]
+  },
+  {
+    "id": "sojourner",
+    "name": "Sojourner (Mars Pathfinder)",
+    "agency": [
+      "NASA",
+      "JPL"
+    ],
+    "destinations": [
+      "Mars (Ares Vallis)"
+    ],
+    "mission_category": "Rover",
+    "timeline": {
+      "launch_date": "1996-12-04",
+      "last_contact_date": "1997-09-27",
+      "end_date": "1998-03-10"
+    },
+    "status": {
+      "mission_status": "Completed",
+      "spacecraft_status": "Inactive",
+      "description": "Communications with the Pathfinder base station (Carl Sagan Memorial Station) were lost on September 27, 1997. Sojourner likely continued operating autonomously until its batteries depleted. NASA officially ended the mission on March 10, 1998."
+    },
+    "science": {
+      "objectives": [
+        "Demonstrate a low-cost method for delivering a payload to the surface of Mars.",
+        "Demonstrate mobility and surface navigation on Mars.",
+        "Characterize the Martian soil and rocks at the landing site."
+      ],
+      "discoveries": [
+        {
+          "description": "Identified rounded pebbles and cobbles, providing strong evidence that liquid water once flowed heavily through Ares Vallis.",
+          "source_url": "https://mars.nasa.gov/mars-exploration/missions/pathfinder/"
+        },
+        {
+          "description": "Chemical analysis indicated rocks rich in silica, suggesting a more differentiated and heated Martian crust than previously thought.",
+          "source_url": "https://nssdc.gsfc.nasa.gov/planetary/mesur.html"
+        }
+      ],
+      "legacy": "As the first successful rover on another planet, Sojourner revolutionized planetary exploration, proving that mobile scientific platforms were viable and paving the way for Spirit, Opportunity, Curiosity, and Perseverance."
+    },
+    "hardware_entities": [
+      {
+        "item_name": "Sojourner Rover",
+        "type": "Abandoned Surface Hardware",
+        "location": "Ares Vallis (19.33° N, 33.55° W)",
+        "condition": "Inactive"
+      },
+      {
+        "item_name": "Pathfinder Lander (Carl Sagan Memorial Station)",
+        "type": "Abandoned Surface Hardware",
+        "location": "Ares Vallis (19.33° N, 33.55° W)",
+        "condition": "Inactive"
+      }
+    ],
+    "metrics": {
+      "mass": {
+        "value": 10.5,
+        "unit": "kg",
+        "mass_type": "Deployed Rover Mass"
+      },
+      "distance_from_earth": null
+    },
+    "general_sources": [
+      "https://mars.nasa.gov/mars-exploration/missions/pathfinder/",
+      "https://nssdc.gsfc.nasa.gov/planetary/mesur.html"
+    ]
+  },
+  {
+    "id": "opportunity",
+    "name": "Opportunity (MER-B)",
+    "agency": [
+      "NASA",
+      "JPL"
+    ],
+    "destinations": [
+      "Mars (Meridiani Planum)"
+    ],
+    "mission_category": "Rover",
+    "timeline": {
+      "launch_date": "2003-07-07",
+      "last_contact_date": "2018-06-10",
+      "end_date": "2019-02-13"
+    },
+    "status": {
+      "mission_status": "Completed",
+      "spacecraft_status": "Inactive",
+      "description": "After a planet-wide dust storm blocked sunlight from reaching its solar panels, Opportunity last communicated on June 10, 2018. Following over a thousand recovery commands, the mission was officially declared complete on February 13, 2019."
+    },
+    "science": {
+      "objectives": [
+        "Determine the aqueous, climatic, and geologic history of a site on Mars where conditions may have been favorable to the preservation of evidence of possible pre-biotic or biotic processes.",
+        "Characterize a variety of rocks and soils for clues to past water activity."
+      ],
+      "discoveries": [
+        {
+          "description": "Discovered 'blueberries' (hematite spheres), which formed in acidic groundwater, proving that liquid water once saturated the surface at Meridiani Planum.",
+          "source_url": "https://science.nasa.gov/mission/mer-opportunity/"
+        },
+        {
+          "description": "Found veins of gypsum at Endeavour Crater, indicating water flowed through underground fractures.",
+          "source_url": "https://mars.nasa.gov/mer/mission/science/results/"
+        }
+      ],
+      "legacy": "Originally designed for a 90-day mission, Opportunity explored Mars for over 14 years, driving an extraterrestrial record of 28.06 miles and fundamentally rewriting the history of water on the Red Planet."
+    },
+    "hardware_entities": [
+      {
+        "item_name": "Opportunity Rover",
+        "type": "Abandoned Surface Hardware",
+        "location": "Perseverance Valley, Endeavour Crater (2.28° S, 354.47° E)",
+        "condition": "Inactive"
+      }
+    ],
+    "metrics": {
+      "mass": {
+        "value": 185,
+        "unit": "kg",
+        "mass_type": "Deployed Rover Mass"
+      },
+      "distance_from_earth": null
+    },
+    "general_sources": [
+      "https://science.nasa.gov/mission/mer-opportunity/",
+      "https://mars.nasa.gov/mer/"
+    ]
+  },
+  {
+    "id": "insight",
+    "name": "InSight",
+    "agency": [
+      "NASA",
+      "JPL",
+      "CNES",
+      "DLR"
+    ],
+    "destinations": [
+      "Mars (Elysium Planitia)"
+    ],
+    "mission_category": "Surface Payload (Lander)",
+    "timeline": {
+      "launch_date": "2018-05-05",
+      "last_contact_date": "2022-12-15",
+      "end_date": "2022-12-15"
+    },
+    "status": {
+      "mission_status": "Completed",
+      "spacecraft_status": "Inactive",
+      "description": "The lander's power generation steadily declined due to dust accumulation on its solar panels. Contact was last made on December 15, 2022. After missing two consecutive communication sessions, NASA officially retired the mission, designating December 15, 2022 as the end-of-mission date."
+    },
+    "science": {
+      "objectives": [
+        "Understand the formation and evolution of terrestrial planets through investigating the interior structure and processes of Mars.",
+        "Determine the present level of tectonic activity and meteorite impact rate on Mars."
+      ],
+      "discoveries": [
+        {
+          "description": "Detected over 1,300 'marsquakes', allowing scientists to map the Martian crust, mantle, and core for the first time.",
+          "source_url": "https://mars.nasa.gov/insight/mission/science/results/"
+        },
+        {
+          "description": "Determined that the Martian core is completely liquid and slightly larger and less dense than previously predicted.",
+          "source_url": "https://science.nasa.gov/mission/insight/"
+        }
+      ],
+      "legacy": "InSight peered deeper into Mars than any previous mission, proving that the planet is still seismically active and providing the first comprehensive map of another planet's deep interior."
+    },
+    "hardware_entities": [
+      {
+        "item_name": "InSight Lander",
+        "type": "Abandoned Surface Hardware",
+        "location": "Elysium Planitia (4.50° N, 135.62° E)",
+        "condition": "Inactive"
+      },
+      {
+        "item_name": "SEIS Seismometer",
+        "type": "Abandoned Surface Hardware",
+        "location": "Deployed on surface near lander",
+        "condition": "Inactive"
+      }
+    ],
+    "metrics": {
+      "mass": {
+        "value": 358,
+        "unit": "kg",
+        "mass_type": "Landed Mass"
+      },
+      "distance_from_earth": null
+    },
+    "general_sources": [
+      "https://science.nasa.gov/mission/insight/",
+      "https://mars.nasa.gov/insight/"
+    ]
+  },
+  {
+    "id": "dawn",
+    "name": "Dawn",
+    "agency": [
+      "NASA",
+      "JPL"
+    ],
+    "destinations": [
+      "Vesta",
+      "Ceres"
+    ],
+    "mission_category": "Orbiter",
+    "timeline": {
+      "launch_date": "2007-09-27",
+      "last_contact_date": "2018-10-31",
+      "end_date": "2018-11-01"
+    },
+    "status": {
+      "mission_status": "Completed",
+      "spacecraft_status": "Inactive",
+      "description": "Dawn ran out of hydrazine fuel used for orientation and communication, transmitting for the last time on October 31, 2018. NASA officially announced the mission's conclusion on November 1, 2018. It remains stranded in a stable orbit around the dwarf planet Ceres."
+    },
+    "science": {
+      "objectives": [
+        "Determine the processes and conditions that produced and modified the protoplanets Vesta and Ceres.",
+        "Understand the role of water in the evolution of asteroids."
+      ],
+      "discoveries": [
+        {
+          "description": "Revealed that Vesta is remarkably dry, highly differentiated, and the source of many meteorites found on Earth (HED meteorites).",
+          "source_url": "https://science.nasa.gov/mission/dawn/"
+        },
+        {
+          "description": "Found sodium-carbonate-rich bright deposits on Ceres. Dawn data showed that these salts were supplied by subsurface brines and provided evidence of relatively recent and potentially ongoing geological activity.",
+          "source_url": "https://www.nasa.gov/centers-and-facilities/jpl/mystery-solved-bright-areas-on-ceres-come-from-salty-water-below/"
+        }
+      ],
+      "legacy": "Dawn was the first spacecraft to orbit two distinct extraterrestrial bodies and the first to visit a dwarf planet, transforming our understanding of the asteroid belt."
+    },
+    "hardware_entities": [
+      {
+        "item_name": "Dawn Spacecraft",
+        "type": "Inactive Spacecraft",
+        "location": "In orbit around Ceres",
+        "condition": "Inactive"
+      }
+    ],
+    "metrics": {
+      "mass": {
+        "value": 1218,
+        "unit": "kg",
+        "mass_type": "Launch Mass"
+      },
+      "distance_from_earth": null
+    },
+    "general_sources": [
+      "https://science.nasa.gov/mission/dawn/",
+      "https://solarsystem.nasa.gov/missions/dawn/"
+    ]
+  },
+  {
+    "id": "pioneer-10",
+    "name": "Pioneer 10",
+    "agency": [
+      "NASA",
+      "Ames Research Center"
+    ],
+    "destinations": [
+      "Jupiter",
+      "Outer Solar System"
+    ],
+    "mission_category": "Deep Space Probe",
+    "timeline": {
+      "launch_date": "1972-03-02",
+      "last_contact_date": "2003-01-23",
+      "end_date": "2003-01-23"
+    },
+    "status": {
+      "mission_status": "Completed",
+      "spacecraft_status": "Inactive",
+      "description": "The last faint telemetry was received in January 2003. Pioneer 10's radioisotope power source has decayed below the threshold needed to power its transmitter."
+    },
+    "science": {
+      "objectives": [
+        "First spacecraft to travel through the asteroid belt.",
+        "Obtain close-up images and data of Jupiter and its environment."
+      ],
+      "discoveries": [
+        {
+          "description": "Safely navigated the asteroid belt, proving that spacecraft could traverse it without catastrophic collisions.",
+          "source_url": "https://science.nasa.gov/mission/pioneer-10/"
+        },
+        {
+          "description": "Discovered that Jupiter's magnetic field is massive, rotating, and extends vastly further than expected.",
+          "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-012A"
+        }
+      ],
+      "legacy": "Pioneer 10 was humanity's deep-space pathfinder: the first spacecraft to fly past Jupiter and the first spacecraft placed on a trajectory to escape the Solar System toward interstellar space."
+    },
+    "hardware_entities": [
+      {
+        "item_name": "Pioneer 10 Spacecraft",
+        "type": "Travelling Spacecraft",
+        "location": "Outbound on an escape trajectory toward interstellar space.",
+        "condition": "Inactive"
+      },
+      {
+        "item_name": "Pioneer Plaque",
+        "type": "Attached Component",
+        "location": "Mounted to the spacecraft antenna support struts",
+        "condition": "Intact"
+      }
+    ],
+    "metrics": {
+      "mass": {
+        "value": 258,
+        "unit": "kg",
+        "mass_type": "Launch Mass"
+      },
+      "distance_from_earth": null
+    },
+    "general_sources": [
+      "https://science.nasa.gov/mission/pioneer-10/",
+      "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-012A"
+    ]
+  }
+]
