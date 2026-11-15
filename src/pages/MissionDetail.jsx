@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Link, useLocation, useParams } from "react-router-dom";
 import MissionFigure from "../components/MissionFigure";
+import Reveal from "../components/Reveal";
 import StatusChip from "../components/StatusChip";
 import {
   BeforeAfter,
@@ -37,16 +38,20 @@ const CHAPTERS = [
 function Chapter({ id, title, blurb, children, media }) {
   return (
     <section id={id} className="chapter" aria-labelledby={`${id}-title`}>
-      <header className="chapter__header">
+      <Reveal as="header" className="chapter__header">
         <h2 id={`${id}-title`}>{title}</h2>
         <p>{blurb}</p>
-      </header>
+      </Reveal>
       <div className={`chapter__body${media?.length ? " chapter__body--with-media" : ""}`}>
-        <div className="chapter__main">{children}</div>
+        <Reveal className="chapter__main" amount={0.05} y={24}>
+          {children}
+        </Reveal>
         {media?.length > 0 && (
           <div className="chapter__media">
-            {media.map((imageId) => (
-              <MissionFigure key={imageId} imageId={imageId} />
+            {media.map((imageId, index) => (
+              <Reveal key={imageId} amount={0.1} delay={0.1 + index * 0.12}>
+                <MissionFigure imageId={imageId} />
+              </Reveal>
             ))}
           </div>
         )}
@@ -148,7 +153,7 @@ export default function MissionDetail() {
   return (
     <article className="mission-story">
       <header className="story-hero container">
-        <div className="story-hero__text">
+        <Reveal className="story-hero__text">
           <p className="story-hero__crumb">
             <Link to="/explorer">Explorer Atlas</Link>
             {mission.mission_category && <span> / {mission.mission_category}</span>}
@@ -194,12 +199,12 @@ export default function MissionDetail() {
             )}
           </dl>
           {mission.status?.description && <p className="story-hero__note">{mission.status.description}</p>}
-        </div>
+        </Reveal>
 
         {heroImageId && (
-          <div className="story-hero__figure">
+          <Reveal className="story-hero__figure" delay={0.2}>
             <MissionFigure imageId={heroImageId} priority />
-          </div>
+          </Reveal>
         )}
       </header>
 

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import ImageFrame from "../components/ImageFrame";
 import MissionCard from "../components/MissionCard";
+import Reveal from "../components/Reveal";
 import useDocumentTitle from "../hooks/useDocumentTitle";
 import { DESTINATIONS } from "../utils/destinations";
 import { destinationImage } from "../utils/missionImages";
@@ -18,7 +19,7 @@ export default function Explorer() {
 
   return (
     <div className="explorer container">
-      <header className="explorer__intro">
+      <Reveal as="header" className="explorer__intro">
         <h1>Explorer Atlas</h1>
         <p>
           Every spacecraft in the archive, grouped by where it ended up. Choose a destination, then open any
@@ -38,7 +39,7 @@ export default function Explorer() {
             </button>
           ))}
         </div>
-      </header>
+      </Reveal>
 
       {groups.map((destination) => {
         const missions = getMissionsByDestination(destination.pattern);
@@ -46,7 +47,7 @@ export default function Explorer() {
 
         return (
           <section key={destination.kind} className="destination" aria-labelledby={`dest-${destination.kind}`}>
-            <div className="destination__header">
+            <Reveal className="destination__header">
               {image && (
                 <figure className="destination__figure">
                   <ImageFrame image={image} aspect="16 / 9" />
@@ -68,14 +69,14 @@ export default function Explorer() {
                 <h2 id={`dest-${destination.kind}`}>{destination.title}</h2>
                 <p>{destination.text}</p>
               </div>
-            </div>
+            </Reveal>
 
             {missions.length > 0 ? (
               <ul className="destination__grid">
-                {missions.map((mission) => (
-                  <li key={mission.id}>
+                {missions.map((mission, index) => (
+                  <Reveal as="li" key={mission.id} delay={(index % 3) * 0.1}>
                     <MissionCard mission={mission} />
-                  </li>
+                  </Reveal>
                 ))}
               </ul>
             ) : (

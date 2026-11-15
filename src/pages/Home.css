@@ -256,6 +256,32 @@
   background: var(--gradient-card);
   border: var(--border-width) solid var(--color-border);
   border-radius: var(--radius-lg);
+  height: 100%;
+  transition:
+    border-color var(--transition-base),
+    transform var(--transition-base),
+    box-shadow var(--transition-base);
+}
+
+.frontier-card:hover {
+  border-color: var(--color-border-gold);
+  box-shadow: var(--glow-violet);
+  transform: translateY(-5px);
+}
+
+.frontier-card__media .image-frame img {
+  transition: transform 0.8s var(--ease-out);
+}
+
+.frontier-card:hover .frontier-card__media .image-frame img {
+  transform: scale(1.05);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .frontier-card:hover,
+  .frontier-card:hover .frontier-card__media .image-frame img {
+    transform: none;
+  }
 }
 
 .frontier-card__body {
@@ -295,10 +321,12 @@
   transition:
     color var(--transition-fast),
     border-color var(--transition-fast),
-    background-color var(--transition-fast);
+    background-color var(--transition-fast),
+    transform var(--transition-fast);
 }
 
 .frontier-card__missions a:hover {
+  transform: translateY(-1px);
   color: var(--color-gold);
   border-color: var(--color-border-gold);
   background: var(--color-gold-wash);

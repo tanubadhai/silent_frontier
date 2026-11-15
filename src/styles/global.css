@@ -195,7 +195,26 @@ code {
   transition:
     background-color var(--transition-fast),
     border-color var(--transition-fast),
-    color var(--transition-fast);
+    color var(--transition-fast),
+    transform var(--transition-fast),
+    box-shadow var(--transition-base);
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button:active {
+  transform: translateY(0) scale(0.97);
+  transition-duration: 0.08s;
+}
+
+.button svg {
+  transition: transform var(--transition-base);
+}
+
+.button:hover svg {
+  transform: translateX(2px);
 }
 
 .button--primary {
@@ -206,6 +225,7 @@ code {
 .button--primary:hover {
   color: var(--color-on-gold);
   background: var(--color-gold-bright);
+  box-shadow: var(--glow-gold);
 }
 
 .button--ghost {
@@ -217,6 +237,7 @@ code {
   color: var(--color-gold);
   border-color: var(--color-border-gold);
   background: var(--color-gold-wash);
+  box-shadow: 0 6px 22px rgb(0 0 0 / 0.28);
 }
 
 /* ---- App shell ----------------------------------------------------------- */
@@ -244,5 +265,11 @@ code {
     transition-duration: 0.01ms !important;
     transition-delay: 0s !important;
     scroll-behavior: auto !important;
+  }
+
+  .button:hover,
+  .button:active,
+  .button:hover svg {
+    transform: none;
   }
 }

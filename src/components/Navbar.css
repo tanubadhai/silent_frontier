@@ -197,6 +197,10 @@
     transition: transform var(--transition-base);
   }
 
+  .nav-link:hover::after {
+    transform: scaleX(0.55);
+  }
+
   .nav-link[aria-current="page"] {
     background: none;
   }

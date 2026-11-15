@@ -20,6 +20,17 @@
     radial-gradient(60rem 36rem at 28% 108%, rgb(var(--rgb-purple) / 0.34), transparent 65%),
     radial-gradient(34rem 20rem at 96% 106%, rgb(var(--rgb-gold) / 0.06), transparent 65%),
     linear-gradient(180deg, #150e27 0%, var(--color-bg) 50%, #0c0814 100%);
+  animation: nebula-breathe 40s ease-in-out infinite alternate;
+  will-change: opacity;
+}
+
+@keyframes nebula-breathe {
+  from {
+    opacity: 0.88;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* A second set of clouds that drifts very slowly, so the nebula is not static. */
@@ -74,6 +85,7 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .starfield__glow,
   .starfield__drift,
   .star[data-twinkle="true"] {
     animation: none;

@@ -15,8 +15,10 @@
 
 .mission-card:hover {
   border-color: var(--color-border-gold);
-  box-shadow: var(--glow-violet);
-  transform: translateY(-3px);
+  box-shadow:
+    var(--glow-violet),
+    0 18px 40px rgb(0 0 0 / 0.35);
+  transform: translateY(-6px);
 }
 
 /* The title link covers the whole card, so the card is one big click target. */
@@ -107,4 +109,23 @@
   flex-direction: column;
   gap: var(--space-3);
   padding: var(--space-4) var(--space-5) var(--space-5);
+}
+
+/* Slow, subtle image zoom on hover. */
+.mission-card__media .image-frame img {
+  transition: transform 0.9s var(--ease-out);
+}
+
+.mission-card:hover .mission-card__media .image-frame img {
+  transform: scale(1.07);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mission-card:hover {
+    transform: none;
+  }
+
+  .mission-card:hover .mission-card__media .image-frame img {
+    transform: none;
+  }
 }

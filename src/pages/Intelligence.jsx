@@ -4,6 +4,7 @@ import EvidenceMap from "../components/intelligence/EvidenceMap";
 import InstrumentExplorer from "../components/intelligence/InstrumentExplorer";
 import MissionCompare from "../components/intelligence/MissionCompare";
 import MissionTimeline from "../components/intelligence/MissionTimeline";
+import Reveal from "../components/Reveal";
 import useDocumentTitle from "../hooks/useDocumentTitle";
 import { METHOD_NOTE } from "../utils/intelligence";
 import "../components/intelligence/intelligence.css";
@@ -63,7 +64,7 @@ export default function Intelligence() {
 
   return (
     <div className="intelligence">
-      <header className="intelligence__hero container">
+      <Reveal as="header" className="intelligence__hero container">
         <h1>Mission intelligence</h1>
         <p className="intelligence__lead">
           What eight missions discovered, how the evidence was gathered, and how the work of one mission reached
@@ -82,16 +83,18 @@ export default function Intelligence() {
           </ul>
         </nav>
         <p className="intelligence__method">{METHOD_NOTE}</p>
-      </header>
+      </Reveal>
 
       <div className="container">
         {SECTIONS.map((section) => (
           <section key={section.id} id={section.id} className="intel-section" aria-labelledby={`${section.id}-title`}>
-            <header className="intel-section__header">
+            <Reveal as="header" className="intel-section__header">
               <h2 id={`${section.id}-title`}>{section.title}</h2>
               <p>{section.blurb}</p>
-            </header>
-            {section.body}
+            </Reveal>
+            <Reveal amount={0.05} y={24}>
+              {section.body}
+            </Reveal>
           </section>
         ))}
 

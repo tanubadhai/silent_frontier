@@ -1,3 +1,17 @@
+.mission-figure .image-frame img {
+  transition: transform 0.9s var(--ease-out);
+}
+
+.mission-figure:hover .image-frame img {
+  transform: scale(1.03);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mission-figure:hover .image-frame img {
+    transform: none;
+  }
+}
+
 .mission-figure {
   margin: 0;
 }

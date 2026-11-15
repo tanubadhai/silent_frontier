@@ -4,6 +4,7 @@ import { Compass, Radio, Star } from "lucide-react";
 import ImageFrame from "../components/ImageFrame";
 import MissionCard from "../components/MissionCard";
 import MissionFigure from "../components/MissionFigure";
+import Reveal from "../components/Reveal";
 import StatusChip from "../components/StatusChip";
 import useDocumentTitle from "../hooks/useDocumentTitle";
 import { DESTINATIONS } from "../utils/destinations";
@@ -120,7 +121,7 @@ function VoyagerFeature() {
   return (
     <section className="home-section" aria-labelledby="voyager-title">
       <div className="container">
-        <div className="voyager">
+        <Reveal className="voyager" amount={0.1}>
           <div className="voyager__text">
             <p className="voyager__tag">
               <Star aria-hidden="true" />
@@ -192,7 +193,7 @@ function VoyagerFeature() {
           <div className="voyager__visual">
             <MissionFigure imageId="pia00452" />
           </div>
-        </div>
+        </Reveal>
       </div>
     </section>
   );
@@ -204,22 +205,23 @@ function Frontier() {
   return (
     <section className="home-section" aria-labelledby="frontier-title">
       <div className="container">
-        <div className="section-heading">
+        <Reveal className="section-heading">
           <h2 id="frontier-title">The abandoned frontier</h2>
           <p>
             Humanity has left machines in many places: on the Moon, on Mars, among the asteroids and
             in the space between the stars. Some have fallen silent and others are still sending
             signals, but every one of them is still out there.
           </p>
-        </div>
+        </Reveal>
 
         <ul className="frontier-grid">
-          {DESTINATIONS.map((destination) => {
+          {DESTINATIONS.map((destination, index) => {
             const missions = getMissionsByDestination(destination.pattern);
             const image = destinationImage(destination.kind);
 
             return (
-              <li key={destination.kind} className="frontier-card">
+              <Reveal as="li" key={destination.kind} delay={(index % 3) * 0.1}>
+              <div className="frontier-card">
                 {image && (
                   <div className="frontier-card__media">
                     <ImageFrame image={image} aspect="3 / 2" />
@@ -244,7 +246,8 @@ function Frontier() {
                     </ul>
                   )}
                 </div>
-              </li>
+              </div>
+              </Reveal>
             );
           })}
         </ul>
@@ -261,19 +264,19 @@ function Archive() {
   return (
     <section className="home-section" aria-labelledby="archive-title">
       <div className="container">
-        <div className="section-heading">
+        <Reveal className="section-heading">
           <h2 id="archive-title">Explore the archive</h2>
           <p>
             Every mission has its own story: why it flew, what it found and what became of it. Start
             with one of these.
           </p>
-        </div>
+        </Reveal>
 
         <ul className="archive-grid">
-          {ARCHIVE_MISSIONS.map((mission) => (
-            <li key={mission.id}>
+          {ARCHIVE_MISSIONS.map((mission, index) => (
+            <Reveal as="li" key={mission.id} delay={(index % 3) * 0.1}>
               <MissionCard mission={mission} />
-            </li>
+            </Reveal>
           ))}
         </ul>
 

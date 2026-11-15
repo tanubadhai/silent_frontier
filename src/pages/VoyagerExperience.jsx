@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import MissionFigure from "../components/MissionFigure";
+import Reveal from "../components/Reveal";
 import {
   DirectVsInterpreted,
   EntityCards,
@@ -51,7 +52,7 @@ export default function VoyagerExperience() {
       </header>
 
       <section className="voyager-section container" aria-labelledby="now-title">
-        <header className="voyager-section__header">
+        <Reveal as="header" className="voyager-section__header">
           <h2 id="now-title">Right now</h2>
           <p>
             Voyager 1 is still travelling and still transmitting. The mission data records it as{" "}
@@ -59,17 +60,17 @@ export default function VoyagerExperience() {
             {mission?.status?.spacecraft_status?.toLowerCase() ?? "partially operational"}. Status below is as
             reported by NASA when this archive was written, and it changes. Check NASA’s page for today’s figures.
           </p>
-        </header>
+        </Reveal>
         <StatusTable rows={voyager.chapters.afterlife.status} />
         <h3 className="voyager-section__sub">Instrument by instrument</h3>
         <InstrumentList instruments={voyager.chapters.science.instruments} />
       </section>
 
       <section className="voyager-section container" aria-labelledby="journey-title">
-        <header className="voyager-section__header">
+        <Reveal as="header" className="voyager-section__header">
           <h2 id="journey-title">The journey</h2>
           <p>From the 1977 launch to the milestones still being reached in 2026.</p>
-        </header>
+        </Reveal>
         <div className="voyager-section__split">
           <Timeline items={voyager.chapters.journey.timeline} label="Voyager 1 timeline" />
           <div className="voyager-section__media">
@@ -80,10 +81,10 @@ export default function VoyagerExperience() {
       </section>
 
       <section className="voyager-section container" aria-labelledby="heliopause-title">
-        <header className="voyager-section__header">
+        <Reveal as="header" className="voyager-section__header">
           <h2 id="heliopause-title">Crossing the heliopause</h2>
           <p>{voyager.inherited.breakthrough}</p>
-        </header>
+        </Reveal>
         <InstrumentFocus
           name={voyager.inherited.instrument.name}
           how={voyager.inherited.instrument.how}
@@ -95,10 +96,10 @@ export default function VoyagerExperience() {
 
       {GOLDEN_RECORD && (
         <section className="voyager-section container" aria-labelledby="record-title">
-          <header className="voyager-section__header">
+          <Reveal as="header" className="voyager-section__header">
             <h2 id="record-title">The Golden Record</h2>
             <p>A message carried on board, not a scientific instrument.</p>
-          </header>
+          </Reveal>
           <div className="voyager-section__split">
             <EntityCards entities={[GOLDEN_RECORD]} />
             <MissionFigure imageId="voyager-golden-record" />

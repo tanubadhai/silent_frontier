@@ -34,11 +34,24 @@
   transition:
     border-color var(--transition-fast),
     background-color var(--transition-fast),
-    color var(--transition-fast);
+    color var(--transition-fast),
+    transform var(--transition-fast);
 }
 
 .explorer__filter:hover {
   border-color: var(--color-border-gold);
+  transform: translateY(-2px);
+}
+
+.explorer__filter:active {
+  transform: scale(0.96);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .explorer__filter:hover,
+  .explorer__filter:active {
+    transform: none;
+  }
 }
 
 .explorer__filter[aria-pressed="true"] {

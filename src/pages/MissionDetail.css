@@ -234,11 +234,22 @@
   background: var(--gradient-card);
   border: var(--border-width) solid var(--color-border);
   border-radius: var(--radius-lg);
-  transition: border-color var(--transition-base);
+  transition:
+    border-color var(--transition-base),
+    transform var(--transition-base),
+    box-shadow var(--transition-base);
 }
 
 .story-pager a:hover {
   border-color: var(--color-border-gold);
+  box-shadow: var(--glow-violet);
+  transform: translateY(-3px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .story-pager a:hover {
+    transform: none;
+  }
 }
 
 .story-pager span {
