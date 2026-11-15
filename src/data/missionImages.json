@@ -189,8 +189,11 @@
       "fit": "cover",
       "position": "center",
       "acquire": {
-        "method": "nasa-library",
-        "id": "AS12-47-6921"
+        "method": "url",
+        "urls": [
+          "https://nssdc.gsfc.nasa.gov/imgcat/higher_res/apollo/as12_47_6921.jpg"
+        ],
+        "manualSource": "https://www.dvidshub.net/image/837293/apollo-12-mission-image-deployed-alsep"
       },
       "confidence": "id-and-title-from-apollo-photo-list",
       "expectTitle": [
@@ -213,8 +216,11 @@
       "fit": "cover",
       "position": "center",
       "acquire": {
-        "method": "nasa-library",
-        "id": "AS12-46-6817"
+        "method": "url",
+        "urls": [
+          "https://nssdc.gsfc.nasa.gov/imgcat/higher_res/apollo/as12_46_6817.jpg"
+        ],
+        "manualSource": "https://nssdc.gsfc.nasa.gov/imgcat/html/mission_page/EM_Apollo_12_page1.html"
       },
       "confidence": "id-and-title-from-apollo-photo-list",
       "expectTitle": [
@@ -271,26 +277,29 @@
         "Surveyor"
       ]
     },
-    "as12-48-7090": {
-      "id": "as12-48-7090",
+    "as12-48-7121": {
+      "id": "as12-48-7121",
       "mission": "surveyor-3",
-      "file": "surveyor-3/as12-48-7090.jpg",
-      "title": "Surveyor 3 in its crater",
-      "caption": "Surveyor 3 on the inner slope of the small crater where it landed in Oceanus Procellarum, photographed by the Apollo 12 crew.",
-      "alt": "A small spacecraft resting on a gentle crater slope in grey lunar soil.",
-      "nasaId": "AS12-48-7090",
+      "file": "surveyor-3/as12-48-7121.jpg",
+      "title": "View of Surveyor III in its crater",
+      "caption": "Surveyor 3 on the slope of the small crater in the Ocean of Storms where it landed, photographed by the Apollo 12 crew during their second moonwalk in November 1969.",
+      "alt": "A small spacecraft resting on the slope of a crater in grey lunar soil.",
+      "nasaId": "AS12-48-7121",
       "type": "photograph",
-      "sourcePage": "https://nssdc.gsfc.nasa.gov/imgcat/html/mission_page/EM_Apollo_12_page1.html",
-      "credit": "NASA",
+      "sourcePage": "https://science.nasa.gov/resource/view-of-surveyor-iii-in-its-crater/",
+      "credit": "NASA/JSC",
       "creditVerified": true,
       "aspect": "1/1",
       "fit": "cover",
       "position": "center",
       "acquire": {
-        "method": "nasa-library",
-        "id": "AS12-48-7090"
+        "method": "url",
+        "urls": [
+          "https://assets.science.nasa.gov/content/dam/science/psd/lunar-science/2023/09/as12-48-7121_orig.jpg",
+          "https://assets.science.nasa.gov/content/dam/science/psd/lunar-science/2023/08/detail_as12-48-7121_orig.jpg"
+        ]
       },
-      "confidence": "id-and-title-from-apollo-photo-list",
+      "confidence": "page-confirmed",
       "expectTitle": [
         "Surveyor"
       ]
@@ -793,6 +802,32 @@
       },
       "confidence": "page-confirmed-image-token-unchecked",
       "expectTitle": []
+    },
+    "hubble-ultra-deep-field": {
+      "id": "hubble-ultra-deep-field",
+      "mission": "deep-space",
+      "file": "deep-space/hubble-ultra-deep-field.jpg",
+      "title": "Hubble Ultra Deep Field",
+      "caption": "The Hubble Ultra Deep Field: a long-exposure Hubble Space Telescope view of a tiny patch of sky in the constellation Fornax, containing thousands of distant galaxies. It is a telescope image, not a spacecraft image from any mission in this archive.",
+      "alt": "A dark field scattered with thousands of galaxies of many shapes and colours, including spirals, ellipticals and small red and blue smudges.",
+      "nasaId": "STScI-01EVVM9R75RVTEHV4R6SDT34D3",
+      "type": "processed image",
+      "sourcePage": "https://science.nasa.gov/asset/hubble/hubble-ultra-deep-field/",
+      "credit": "NASA, ESA, S. Beckwith and the HUDF Team (STScI), and B. Mobasher (STScI)",
+      "creditVerified": true,
+      "aspect": "1/1",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "url",
+        "urls": [
+          "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2005/09/STScI-01EVVM9R75RVTEHV4R6SDT34D3.tif/jcr:content/renditions/3100x3100.jpg"
+        ]
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Ultra Deep Field"
+      ]
     }
   },
   "missions": {
@@ -816,7 +851,7 @@
     "surveyor-3": {
       "card": "as12-48-7133",
       "gallery": [
-        "as12-48-7090"
+        "as12-48-7121"
       ]
     },
     "sojourner": {
@@ -871,7 +906,7 @@
       "image": "pia14317"
     },
     "deep": {
-      "image": "pia00451"
+      "image": "hubble-ultra-deep-field"
     }
   }
 }

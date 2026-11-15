@@ -10,6 +10,10 @@
  *   npm run images -- --only=pia00452,as12-48-7133
  *   npm run images -- --dry         show what would be downloaded
  *
+ * acquire methods: "nasa-library" (NASA ID), "scrape" (image on a NASA page) and
+ * "url" (direct file URLs, tried in order). To add a picture by hand, save it as
+ * public/images/missions/<file from the manifest>; existing files are never overwritten.
+ *
  * For every download it checks the title and credit NASA gives for the ID
  * against the manifest and prints a warning when they do not match. Results are
  * written to scripts/image-report.json.
@@ -40,13 +44,14 @@ async function getJson(url) {
   return res.json();
 }
 
-async function getBuffer(url) {
+async function getBuffer(url, { jpeg = false } = {}) {
   const res = await fetch(https(url), { headers: HEADERS });
   if (!res.ok) throw new Error(`${res.status} ${res.statusText} for ${url}`);
   const type = res.headers.get("content-type") ?? "";
   if (!type.startsWith("image/")) throw new Error(`not an image (${type}) at ${url}`);
   const buffer = Buffer.from(await res.arrayBuffer());
   if (buffer.length < 5000) throw new Error(`file too small (${buffer.length} bytes) at ${url}`);
+  if (jpeg && !(buffer[0] === 0xff && buffer[1] === 0xd8)) throw new Error(`not a JPEG file at ${url}`);
   return buffer;
 }
 
@@ -126,7 +131,7 @@ for (const entry of entries) {
     row.status = "would download";
     row.via = entry.acquire.method;
     report.push(row);
-    console.log(`  dry-run  ${entry.id}  <- ${entry.acquire.method} ${entry.acquire.id ?? entry.acquire.page}`);
+    console.log(`  dry-run  ${entry.id}  <- ${entry.acquire.method} ${entry.acquire.id ?? entry.acquire.page ?? entry.acquire.urls?.[0]}`);
     continue;
   }
 
@@ -139,10 +144,21 @@ for (const entry of entries) {
       }
     } else if (entry.acquire.method === "scrape") {
       found = await fromPage(entry.acquire.page, entry.acquire.match);
+    } else if (entry.acquire.method === "url") {
+      // Direct file URLs, tried in order. Each must be a real JPEG.
+      for (const url of entry.acquire.urls ?? []) {
+        try {
+          found = { url, meta: null, via: "direct-url", buffer: await getBuffer(url, { jpeg: true }) };
+          break;
+        } catch (error) {
+          row.warnings.push(String(error.message ?? error));
+        }
+      }
+      if (!found) throw new Error(row.warnings.join(" | ") || "no URL listed");
     }
     if (!found) throw new Error("no downloadable image found");
 
-    const buffer = await getBuffer(found.url);
+    const buffer = found.buffer ?? (await getBuffer(found.url));
     await mkdir(path.dirname(target), { recursive: true });
     await writeFile(target, buffer);
     row.status = "downloaded";
@@ -155,7 +171,7 @@ for (const entry of entries) {
     row.status = "FAILED";
     row.warnings.push(String(error.message ?? error));
     console.error(`  FAILED   ${entry.id}: ${row.warnings[0]}`);
-    console.error(`           Save it by hand as public${manifest.basePath}/${entry.file} from ${entry.sourcePage}`);
+    console.error(`           Save it by hand as public${manifest.basePath}/${entry.file} from ${entry.acquire.manualSource ?? entry.sourcePage}`);
   }
   report.push(row);
 }
