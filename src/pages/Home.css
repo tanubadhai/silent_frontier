@@ -1,0 +1,414 @@
+/* ==========================================================================
+   Homepage
+   Everything here sits above the fixed starfield, so backgrounds stay
+   translucent. Opaque fills would hide the stars.
+   ========================================================================== */
+
+/* ---- Shared section layout ------------------------------------------------ */
+.home-section {
+  padding-block: clamp(var(--space-8), 8vw, var(--space-9));
+}
+
+.section-heading {
+  max-width: 46rem;
+  margin-bottom: var(--space-7);
+}
+
+.section-heading h2 {
+  margin-bottom: var(--space-4);
+}
+
+.section-heading p {
+  max-width: var(--measure);
+  font-size: var(--text-md);
+  color: var(--color-text-muted);
+}
+
+/* ---- 1. Hero --------------------------------------------------------------- */
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: max(34rem, calc(100vh - var(--header-height)));
+  min-height: max(34rem, calc(100svh - var(--header-height)));
+  padding-block: var(--space-9) var(--space-10);
+  overflow-x: clip;
+}
+
+.hero__content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero__title {
+  max-width: 9em;
+  padding-bottom: 0.08em; /* keeps descenders from being clipped by the gradient text */
+  font-size: var(--text-hero);
+  line-height: 0.92;
+  letter-spacing: -0.04em;
+  color: var(--color-text);
+}
+
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .hero__title {
+    background: linear-gradient(180deg, var(--color-text) 25%, var(--color-violet-soft) 115%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 48px rgb(var(--rgb-violet) / 0.45));
+  }
+}
+
+.hero__lead {
+  max-width: 36rem;
+  margin-top: var(--space-5);
+  font-size: var(--text-lg);
+  line-height: var(--leading-normal);
+  color: rgb(233 229 219 / 0.88);
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+}
+
+.hero__actions .button {
+  min-height: 3.25rem;
+  padding-inline: var(--space-6);
+  font-size: var(--text-base);
+}
+
+.button svg {
+  width: 1.125rem;
+  height: 1.125rem;
+  flex-shrink: 0;
+}
+
+.button--primary:hover {
+  box-shadow: var(--glow-gold);
+}
+
+/* Orbit rings: faint and slow, behind the text. */
+.hero__orbits {
+  position: absolute;
+  top: 50%;
+  right: -14%;
+  width: clamp(26rem, 64vw, 64rem);
+  aspect-ratio: 1;
+  transform: translateY(-50%);
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.hero__orbits svg {
+  width: 100%;
+  height: 100%;
+  animation: orbit-spin 240s linear infinite;
+}
+
+.hero__orbit {
+  stroke: var(--color-violet-soft);
+  stroke-width: 1;
+}
+
+.hero__orbit--outer {
+  opacity: 0.35;
+}
+
+.hero__orbit--middle {
+  opacity: 0.22;
+}
+
+.hero__orbit--inner {
+  opacity: 0.14;
+}
+
+@keyframes orbit-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* A planet's limb: a thin rim of light with a violet glow. The body is
+   transparent, so stars stay visible behind it. */
+.hero__horizon {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 220vw;
+  aspect-ratio: 1;
+  transform: translateX(-50%);
+  border-top: var(--border-width) solid rgb(var(--rgb-violet-soft) / 0.45);
+  border-radius: 50%;
+  background: radial-gradient(60% 16% at 50% 0%, rgb(var(--rgb-violet) / 0.3), transparent 100%);
+  pointer-events: none;
+}
+
+/* ---- 2. Featured mission: Voyager 1 ---------------------------------------- */
+.voyager {
+  display: grid;
+  gap: var(--space-7);
+  align-items: center;
+  padding: clamp(var(--space-5), 4vw, var(--space-8));
+  background: var(--gradient-panel);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--glow-violet);
+}
+
+.voyager__tag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+  padding: var(--space-1) var(--space-3);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  color: var(--color-gold);
+  background: var(--color-gold-wash);
+  border: var(--border-width) solid var(--color-border-gold);
+  border-radius: var(--radius-pill);
+}
+
+.voyager__tag svg {
+  width: 0.875rem;
+  height: 0.875rem;
+}
+
+.voyager__text h2 {
+  margin-bottom: var(--space-4);
+}
+
+.voyager__lead {
+  max-width: var(--measure);
+  font-size: var(--text-md);
+}
+
+.voyager__milestone {
+  max-width: var(--measure);
+  margin: var(--space-5) 0;
+  padding-left: var(--space-4);
+  border-left: var(--border-width-strong) solid var(--color-gold);
+}
+
+.voyager__milestone p {
+  font-family: var(--font-heading);
+  font-size: var(--text-md);
+  line-height: var(--leading-snug);
+}
+
+.voyager__milestone footer {
+  margin-top: var(--space-2);
+  font-size: var(--text-xs);
+}
+
+.voyager__status {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4) var(--space-5);
+  max-width: var(--measure);
+  margin-top: var(--space-5);
+}
+
+.voyager__status dt {
+  margin-bottom: var(--space-1);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+
+.voyager__status dd {
+  margin: 0;
+  font-size: var(--text-sm);
+}
+
+.voyager__status-wide {
+  grid-column: 1 / -1;
+}
+
+.voyager__note {
+  max-width: var(--measure);
+  margin-top: var(--space-5);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.voyager__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+}
+
+/* ---- 3. The abandoned frontier --------------------------------------------- */
+.frontier-grid {
+  display: grid;
+  gap: var(--space-5);
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.frontier-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--gradient-card);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
+
+.frontier-card__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-5);
+}
+
+.frontier-card__body h3 {
+  font-size: var(--text-lg);
+}
+
+.frontier-card__body > p {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.frontier-card__missions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: auto;
+  padding-top: var(--space-2);
+}
+
+.frontier-card__missions a {
+  display: inline-block;
+  padding: var(--space-1) var(--space-3);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-medium);
+  color: var(--color-blue);
+  text-decoration: none;
+  border: var(--border-width) solid var(--color-border-strong);
+  border-radius: var(--radius-pill);
+  transition:
+    color var(--transition-fast),
+    border-color var(--transition-fast),
+    background-color var(--transition-fast);
+}
+
+.frontier-card__missions a:hover {
+  color: var(--color-gold);
+  border-color: var(--color-border-gold);
+  background: var(--color-gold-wash);
+}
+
+/* ---- 4. Explore the archive ------------------------------------------------ */
+.archive-grid {
+  display: grid;
+  gap: var(--space-5);
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.archive-more {
+  margin-top: var(--space-7);
+}
+
+/* ---- 5. Closing ------------------------------------------------------------ */
+.closing {
+  position: relative;
+  padding-block: clamp(var(--space-9), 14vw, var(--space-10));
+  text-align: center;
+  background: radial-gradient(50% 60% at 50% 55%, rgb(var(--rgb-violet) / 0.2), transparent 100%);
+}
+
+.closing__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-5);
+}
+
+.closing h2 {
+  max-width: 18ch;
+  font-size: var(--text-3xl);
+  letter-spacing: -0.03em;
+}
+
+.closing p {
+  max-width: 40rem;
+  font-size: var(--text-md);
+  color: var(--color-text-muted);
+}
+
+.closing .button {
+  margin-top: var(--space-3);
+  min-height: 3.25rem;
+  padding-inline: var(--space-6);
+}
+
+/* ---- Responsive ------------------------------------------------------------ */
+@media (min-width: 40rem) {
+  .frontier-grid,
+  .archive-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 64rem) {
+  .voyager {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+    gap: var(--space-8);
+  }
+
+  .frontier-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .archive-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 39.99rem) {
+  .hero {
+    padding-block: var(--space-8) var(--space-9);
+  }
+
+  .hero__orbits {
+    right: -45%;
+    opacity: 0.35;
+  }
+
+  .voyager__status {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* ---- Reduced motion -------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  .hero__orbits svg {
+    animation: none;
+  }
+
+  .mission-card:hover {
+    transform: none;
+  }
+}
+
+/* ---- Real NASA imagery (Phase 3) ------------------------------------------- */
+.voyager__visual .mission-figure {
+  max-width: 28rem;
+  margin-inline: auto;
+}
+
+.frontier-card__media {
+  padding: var(--space-3) var(--space-3) 0;
+}
+
+.frontier-card__credit {
+  margin: var(--space-2) var(--space-1) 0;
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}

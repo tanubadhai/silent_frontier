@@ -1,0 +1,109 @@
+.voyager-page__hero {
+  display: grid;
+  gap: var(--space-7);
+  align-items: center;
+  padding-block: clamp(var(--space-7), 8vw, var(--space-9));
+}
+
+.voyager-page__crumb {
+  margin-bottom: var(--space-3);
+  font-size: var(--text-sm);
+}
+
+.voyager-page__hero h1 {
+  font-size: var(--text-hero);
+  letter-spacing: -0.04em;
+}
+
+.voyager-page__tagline {
+  max-width: 34rem;
+  margin-top: var(--space-4);
+  font-family: var(--font-heading);
+  font-size: var(--text-lg);
+  line-height: var(--leading-snug);
+}
+
+.voyager-page__dek {
+  max-width: 38rem;
+  margin-top: var(--space-3);
+  color: var(--color-text-muted);
+}
+
+.voyager-page__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+}
+
+.voyager-page__hero .mission-figure {
+  max-width: 26rem;
+  margin-inline: auto;
+}
+
+.voyager-section {
+  display: grid;
+  gap: var(--space-6);
+  padding-block: clamp(var(--space-7), 7vw, var(--space-9));
+  border-top: var(--border-width) solid var(--color-border);
+}
+
+.voyager-section__header {
+  max-width: 46rem;
+}
+
+.voyager-section__header h2 {
+  margin-bottom: var(--space-3);
+  font-size: var(--text-2xl);
+}
+
+.voyager-section__header p {
+  color: var(--color-text-muted);
+}
+
+.voyager-section__sub {
+  margin-top: var(--space-3);
+  font-size: var(--text-lg);
+}
+
+.voyager-section__split {
+  display: grid;
+  gap: var(--space-7);
+  align-items: start;
+}
+
+.voyager-section__media {
+  display: grid;
+  gap: var(--space-5);
+}
+
+.voyager-page__closing {
+  display: grid;
+  gap: var(--space-4);
+  justify-items: center;
+  padding-block: clamp(var(--space-8), 12vw, var(--space-10));
+  text-align: center;
+}
+
+.voyager-page__closing h2 {
+  max-width: 16ch;
+  font-size: var(--text-3xl);
+  letter-spacing: -0.03em;
+}
+
+.voyager-page__closing p {
+  max-width: 38rem;
+  color: var(--color-text-muted);
+}
+
+@media (min-width: 64rem) {
+  .voyager-page__hero {
+    grid-template-columns: minmax(0, 6fr) minmax(0, 4fr);
+    gap: var(--space-8);
+  }
+
+  .voyager-section__split {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    gap: var(--space-8);
+  }
+}

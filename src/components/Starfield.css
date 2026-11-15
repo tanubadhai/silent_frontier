@@ -1,0 +1,81 @@
+.starfield {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-starfield);
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* ---- Nebula (behind the stars) ------------------------------------------- */
+/* Layered purple clouds with a little blue light. The vignette is the first
+   layer of this list, but it still sits beneath the stars. */
+.starfield__glow {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 50% 40%, transparent 55%, rgb(8 5 15 / 0.5) 100%),
+    radial-gradient(52rem 34rem at 12% 8%, rgb(var(--rgb-violet) / 0.3), transparent 65%),
+    radial-gradient(70rem 46rem at 80% 28%, rgb(var(--rgb-purple) / 0.4), transparent 68%),
+    radial-gradient(40rem 26rem at 94% -6%, rgb(var(--rgb-blue) / 0.13), transparent 62%),
+    radial-gradient(60rem 36rem at 28% 108%, rgb(var(--rgb-purple) / 0.34), transparent 65%),
+    radial-gradient(34rem 20rem at 96% 106%, rgb(var(--rgb-gold) / 0.06), transparent 65%),
+    linear-gradient(180deg, #150e27 0%, var(--color-bg) 50%, #0c0814 100%);
+}
+
+/* A second set of clouds that drifts very slowly, so the nebula is not static. */
+.starfield__drift {
+  position: absolute;
+  inset: -12%;
+  background:
+    radial-gradient(38rem 24rem at 25% 35%, rgb(var(--rgb-violet) / 0.16), transparent 70%),
+    radial-gradient(44rem 28rem at 72% 70%, rgb(var(--rgb-purple) / 0.22), transparent 70%),
+    radial-gradient(26rem 18rem at 60% 15%, rgb(var(--rgb-blue) / 0.07), transparent 70%);
+  animation: nebula-drift 90s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes nebula-drift {
+  from {
+    transform: translate3d(-2%, -1%, 0) scale(1);
+  }
+  to {
+    transform: translate3d(2%, 1.5%, 0) scale(1.06);
+  }
+}
+
+/* ---- Stars ---------------------------------------------------------------- */
+.star {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--color-text);
+  opacity: var(--star-opacity, 0.5);
+}
+
+.star[data-tone="blue"] {
+  background: var(--color-blue);
+}
+
+.star[data-tone="yellow"] {
+  background: var(--color-yellow);
+}
+
+.star[data-twinkle="true"] {
+  animation: twinkle var(--twinkle-duration, 6s) ease-in-out var(--twinkle-delay, 0s) infinite;
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: var(--star-opacity, 0.5);
+  }
+  50% {
+    opacity: calc(var(--star-opacity, 0.5) * 0.25);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .starfield__drift,
+  .star[data-twinkle="true"] {
+    animation: none;
+  }
+}

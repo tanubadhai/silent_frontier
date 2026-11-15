@@ -1,0 +1,877 @@
+{
+  "version": 1,
+  "basePath": "/images/missions",
+  "note": "Files are not bundled. Run `npm run images` (scripts/fetch-nasa-images.mjs) to download them into public/images/missions/ from official NASA hosts, then `npm run images:check`.",
+  "usage": "NASA media are generally not copyrighted; always keep the credit line. Check each source page for any specific restrictions.",
+  "images": {
+    "pia00452": {
+      "id": "pia00452",
+      "mission": "voyager-1",
+      "file": "voyager-1/pia00452.jpg",
+      "title": "Pale Blue Dot",
+      "caption": "Earth as a point of light in a scattered sunbeam, photographed by Voyager 1 on 14 February 1990 from about 6 billion kilometres away. This is a colour composite of violet, blue and green filter frames; the streaks in the background are artefacts of the magnification.",
+      "alt": "A grainy frame crossed by beams of scattered sunlight, with Earth a barely visible bluish speck inside one beam.",
+      "nasaId": "PIA00452",
+      "type": "processed image",
+      "sourcePage": "https://science.nasa.gov/photojournal/solar-system-portrait-earth-as-pale-blue-dot",
+      "credit": "NASA/JPL",
+      "creditVerified": true,
+      "aspect": "3/4",
+      "fit": "contain",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA00452"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Pale Blue Dot"
+      ]
+    },
+    "pia00451": {
+      "id": "pia00451",
+      "mission": "voyager-1",
+      "file": "voyager-1/pia00451.jpg",
+      "title": "Family Portrait of the Solar System",
+      "caption": "The 60-frame mosaic Voyager 1 assembled in February 1990, its last images before its cameras were switched off. The Pale Blue Dot frame was taken from this series.",
+      "alt": "A wide dark mosaic of the Solar System seen from outside, with the Sun at the centre and faint planets along the frame.",
+      "nasaId": "PIA00451",
+      "type": "mosaic",
+      "sourcePage": "https://science.nasa.gov/photojournal/solar-system-portrait-earth-as-pale-blue-dot",
+      "credit": "NASA/JPL",
+      "creditVerified": false,
+      "aspect": "3/2",
+      "fit": "contain",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA00451"
+      },
+      "confidence": "id-confirmed-in-nasa-text",
+      "expectTitle": [
+        "Portrait"
+      ]
+    },
+    "pia00379": {
+      "id": "pia00379",
+      "mission": "voyager-1",
+      "file": "voyager-1/pia00379.jpg",
+      "title": "Two eruptions on Io",
+      "caption": "Voyager 1 looked back at Io on 8 March 1979, three days after its closest approach to Jupiter. A plume rises from the limb at lower right and a second catches the sunrise on the terminator. This is the frame in which JPL engineer Linda Morabito spotted the first volcanic eruption seen beyond Earth.",
+      "alt": "The dark disc of Jupiter's moon Io, lit faintly by Jupiter, with a bright curved volcanic cloud rising off its edge.",
+      "nasaId": "PIA00379",
+      "type": "photograph",
+      "sourcePage": "https://photojournal.jpl.nasa.gov/catalog/PIA00379",
+      "credit": "NASA/JPL",
+      "creditVerified": true,
+      "aspect": "1/1",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA00379",
+        "fallback": "photojournal"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Io"
+      ]
+    },
+    "pia00373": {
+      "id": "pia00373",
+      "mission": "voyager-1",
+      "file": "voyager-1/pia00373.jpg",
+      "title": "The first eruption evidence on Io",
+      "caption": "Taken on 4 March 1979, about 12 hours before closest approach, from roughly 499,000 km. The dark fountain-like plume near the limb rises more than 100 km above the surface.",
+      "alt": "Jupiter's moon Io with a plume-like structure rising above the edge of the disc.",
+      "nasaId": "PIA00373",
+      "type": "photograph",
+      "sourcePage": "https://photojournal.jpl.nasa.gov/catalog/PIA00373",
+      "credit": "NASA/JPL",
+      "creditVerified": false,
+      "aspect": "1/1",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA00373",
+        "fallback": "photojournal"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Io"
+      ]
+    },
+    "pia00375": {
+      "id": "pia00375",
+      "mission": "voyager-1",
+      "file": "voyager-1/pia00375.jpg",
+      "title": "Loki and Loki Patera",
+      "caption": "Voyager 1 narrow-angle view of the region around the volcano Loki. Its infrared instrument found this lava lake to be the hottest area on Io, about 150 °C warmer than its surroundings.",
+      "alt": "A close view of Io's surface showing a dark, shield-shaped feature and a dark linear rift among pale plains.",
+      "nasaId": "PIA00375",
+      "type": "photograph",
+      "sourcePage": "https://photojournal.jpl.nasa.gov/catalog/PIA00375",
+      "credit": "NASA/JPL",
+      "creditVerified": true,
+      "aspect": "1/1",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA00375",
+        "fallback": "photojournal"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Loki"
+      ]
+    },
+    "voyager-golden-record": {
+      "id": "voyager-golden-record",
+      "mission": "voyager-1",
+      "file": "voyager-1/golden-record.jpg",
+      "title": "The Golden Record",
+      "caption": "The gold-plated copper phonograph record and its cover, mounted on the Voyager spacecraft bus. It carries sounds, images and greetings selected for any future finder.",
+      "alt": "A gold-coloured disc with etched grooves and an engraved cover diagram.",
+      "nasaId": null,
+      "type": "photograph",
+      "sourcePage": "https://science.nasa.gov/mission/voyager/voyager-1/",
+      "credit": "NASA/JPL",
+      "creditVerified": false,
+      "aspect": "4/3",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "scrape",
+        "page": "https://science.nasa.gov/mission/voyager/voyager-1/",
+        "match": "golden"
+      },
+      "confidence": "page-listed-in-mission-data-image-token-unchecked",
+      "expectTitle": []
+    },
+    "voyager-artist-concept": {
+      "id": "voyager-artist-concept",
+      "mission": "voyager-1",
+      "file": "voyager-1/artist-concept.jpg",
+      "title": "Voyager spacecraft (artist's concept)",
+      "caption": "NASA/JPL artist's concept of a Voyager spacecraft in interstellar space. This is an illustration, not a photograph: no camera has ever imaged Voyager 1 in flight.",
+      "alt": "An illustration of the Voyager spacecraft with its large dish antenna and long booms against a starfield.",
+      "nasaId": null,
+      "type": "artist concept",
+      "sourcePage": "https://science.nasa.gov/mission/voyager/voyager-1/",
+      "credit": "NASA/JPL",
+      "creditVerified": false,
+      "aspect": "4/3",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "scrape",
+        "page": "https://science.nasa.gov/mission/voyager/voyager-1/",
+        "match": "artist"
+      },
+      "confidence": "page-listed-in-mission-data-image-token-unchecked",
+      "expectTitle": []
+    },
+    "as12-47-6921": {
+      "id": "as12-47-6921",
+      "mission": "alsep",
+      "file": "alsep/as12-47-6921.jpg",
+      "title": "Aligning the ALSEP central station antenna",
+      "caption": "Apollo 12 commander Charles Conrad aligns the antenna on the ALSEP central station, the hub that powered and communicated with the experiments, in November 1969.",
+      "alt": "An astronaut in a white spacesuit kneeling at a box-shaped instrument station on grey lunar soil.",
+      "nasaId": "AS12-47-6921",
+      "type": "photograph",
+      "sourcePage": "https://nssdc.gsfc.nasa.gov/imgcat/html/mission_page/EM_Apollo_12_page1.html",
+      "credit": "NASA",
+      "creditVerified": true,
+      "aspect": "4/3",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "AS12-47-6921"
+      },
+      "confidence": "id-and-title-from-apollo-photo-list",
+      "expectTitle": [
+        "ALSEP"
+      ]
+    },
+    "as12-46-6817": {
+      "id": "as12-46-6817",
+      "mission": "alsep",
+      "file": "alsep/as12-46-6817.jpg",
+      "title": "ALSEP central station",
+      "caption": "The central station of the Apollo Lunar Surface Experiments Package on the Moon, with the cable-linked experiments laid out around it.",
+      "alt": "A boxy instrument station with a small dish antenna standing on the grey lunar surface.",
+      "nasaId": "AS12-46-6817",
+      "type": "photograph",
+      "sourcePage": "https://nssdc.gsfc.nasa.gov/imgcat/html/mission_page/EM_Apollo_12_page1.html",
+      "credit": "NASA",
+      "creditVerified": true,
+      "aspect": "4/3",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "AS12-46-6817"
+      },
+      "confidence": "id-and-title-from-apollo-photo-list",
+      "expectTitle": [
+        "ALSEP",
+        "Central Station"
+      ]
+    },
+    "as12-47-6919": {
+      "id": "as12-47-6919",
+      "mission": "alsep",
+      "file": "alsep/as12-47-6919.jpg",
+      "title": "Alan Bean deploys ALSEP",
+      "caption": "Apollo 12 astronaut Alan Bean deploys the ALSEP during the first moonwalk.",
+      "alt": "An astronaut carrying a long pole with instrument packages across the lunar surface.",
+      "nasaId": "AS12-47-6919",
+      "type": "photograph",
+      "sourcePage": "https://nssdc.gsfc.nasa.gov/imgcat/html/mission_page/EM_Apollo_12_page1.html",
+      "credit": "NASA",
+      "creditVerified": true,
+      "aspect": "4/3",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "AS12-47-6919"
+      },
+      "confidence": "id-and-title-from-apollo-photo-list",
+      "expectTitle": [
+        "ALSEP"
+      ]
+    },
+    "as12-48-7133": {
+      "id": "as12-48-7133",
+      "mission": "surveyor-3",
+      "file": "surveyor-3/as12-48-7133.jpg",
+      "title": "Conrad and Surveyor 3",
+      "caption": "On 20 November 1969 Apollo 12 commander Charles Conrad examines the Surveyor 3 camera. The Apollo 12 lunar module Intrepid sits in the background, about 180 m away. Surveyor 3 had been on the Moon since April 1967.",
+      "alt": "An astronaut standing beside a spindly three-legged spacecraft on a sloping crater wall, with a lunar module on the horizon.",
+      "nasaId": "AS12-48-7133",
+      "type": "photograph",
+      "sourcePage": "https://nssdc.gsfc.nasa.gov/imgcat/html/object_page/a12_h_48_7133.html",
+      "credit": "NASA",
+      "creditVerified": true,
+      "aspect": "1/1",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "AS12-48-7133"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "spacecraft",
+        "Surveyor"
+      ]
+    },
+    "as12-48-7090": {
+      "id": "as12-48-7090",
+      "mission": "surveyor-3",
+      "file": "surveyor-3/as12-48-7090.jpg",
+      "title": "Surveyor 3 in its crater",
+      "caption": "Surveyor 3 on the inner slope of the small crater where it landed in Oceanus Procellarum, photographed by the Apollo 12 crew.",
+      "alt": "A small spacecraft resting on a gentle crater slope in grey lunar soil.",
+      "nasaId": "AS12-48-7090",
+      "type": "photograph",
+      "sourcePage": "https://nssdc.gsfc.nasa.gov/imgcat/html/mission_page/EM_Apollo_12_page1.html",
+      "credit": "NASA",
+      "creditVerified": true,
+      "aspect": "1/1",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "AS12-48-7090"
+      },
+      "confidence": "id-and-title-from-apollo-photo-list",
+      "expectTitle": [
+        "Surveyor"
+      ]
+    },
+    "pia01003": {
+      "id": "pia01003",
+      "mission": "sojourner",
+      "file": "sojourner/pia01003.jpg",
+      "title": "Sojourner within a colour-enhanced panorama",
+      "caption": "The Pathfinder lander's view of its site in Ares Vallis, with the twin hills nicknamed Twin Peaks on the horizon. Sojourner is at work on the rock Yogi; the rock Barnacle Bill is beside the lander's rear ramp.",
+      "alt": "A rust-coloured plain strewn with dark rocks and twin hills on the horizon, with a small six-wheeled rover beside a large rock.",
+      "nasaId": "PIA01003",
+      "type": "processed image",
+      "sourcePage": "https://photojournal.jpl.nasa.gov/catalog/PIA01003",
+      "credit": "NASA/JPL",
+      "creditVerified": true,
+      "aspect": "2/1",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA01003",
+        "fallback": "photojournal"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Sojourner",
+        "Panorama"
+      ]
+    },
+    "pia00766": {
+      "id": "pia00766",
+      "mission": "sojourner",
+      "file": "sojourner/pia00766.jpg",
+      "title": "Sojourner places its APXS on Yogi",
+      "caption": "Close-up of Sojourner pressing its Alpha Proton X-ray Spectrometer onto the rock Yogi, imaged by the lander's camera over sols 8 to 10.",
+      "alt": "A small solar-powered rover with its instrument arm lowered against a large rock on a reddish surface.",
+      "nasaId": "PIA00766",
+      "type": "photograph",
+      "sourcePage": "https://www.jpl.nasa.gov/images/pia00766-sojourner-yogi",
+      "credit": "NASA/JPL",
+      "creditVerified": true,
+      "aspect": "4/3",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA00766",
+        "fallback": "photojournal"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Yogi"
+      ]
+    },
+    "pia01122": {
+      "id": "pia01122",
+      "mission": "sojourner",
+      "file": "sojourner/pia01122.jpg",
+      "title": "Sojourner near “The Dice”",
+      "caption": "Lander camera view of Sojourner on sol 22, with three small rocks nicknamed The Dice behind it and Yogi nearby. Dark rocks, bright red dust and dark soil are visible in the rover's tracks.",
+      "alt": "A rover on reddish soil with tracks behind it, small cube-like rocks beyond it and a large rock at the edge of the frame.",
+      "nasaId": "PIA01122",
+      "type": "photograph",
+      "sourcePage": "https://science.nasa.gov/photojournal/sojourner-rover-near-the-dice",
+      "credit": "NASA/JPL",
+      "creditVerified": true,
+      "aspect": "4/3",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA01122",
+        "fallback": "photojournal"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Sojourner"
+      ]
+    },
+    "pia05588": {
+      "id": "pia05588",
+      "mission": "opportunity",
+      "file": "opportunity/pia05588.jpg",
+      "title": "“Berries” here, there, everywhere",
+      "caption": "Approximate true-colour Pancam view from Opportunity's 17th sol. The plains beyond the landing crater are scattered with the same dark grey spherules, nicknamed blueberries, found inside it.",
+      "alt": "A flat rust-brown plain strewn with small dark grey spherules.",
+      "nasaId": "PIA05588",
+      "type": "processed image",
+      "sourcePage": "https://science.nasa.gov/photojournal/berries-here-there-everywhere",
+      "credit": "NASA/JPL/Cornell",
+      "creditVerified": false,
+      "aspect": "1/1",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA05588",
+        "fallback": "photojournal"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Berries"
+      ]
+    },
+    "pia19113": {
+      "id": "pia19113",
+      "mission": "opportunity",
+      "file": "opportunity/pia19113.jpg",
+      "title": "Martian “blueberries” near Fram Crater",
+      "caption": "Microscopic Imager close-up, 3 cm across, of hematite-rich concretions nicknamed blueberries, taken on sol 84 (19 April 2004), with colour added from the Pancam.",
+      "alt": "Small round dark spherules embedded in and scattered over fine reddish soil.",
+      "nasaId": "PIA19113",
+      "type": "processed image",
+      "sourcePage": "https://science.nasa.gov/photojournal/martian-concretions-near-fram-crater",
+      "credit": "NASA/JPL-Caltech/Cornell/USGS",
+      "creditVerified": true,
+      "aspect": "1/1",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA19113",
+        "fallback": "photojournal"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Concretions",
+        "Fram"
+      ]
+    },
+    "pia16139": {
+      "id": "pia16139",
+      "mission": "opportunity",
+      "file": "opportunity/pia16139.jpg",
+      "title": "Spherules at Kirkwood that are not blueberries",
+      "caption": "Four Microscopic Imager frames of spherules up to about 3 mm wide at the Kirkwood outcrop on Endeavour Crater's rim. They look similar but are not iron-rich like the original blueberries, which makes them a puzzle rather than a repeat.",
+      "alt": "A mosaic of small round pale and dark spherules, some eroded to show concentric internal layers.",
+      "nasaId": "PIA16139",
+      "type": "mosaic",
+      "sourcePage": "https://science.nasa.gov/photojournal/puzzling-little-martian-spheres-that-dont-taste-like-blueberries",
+      "credit": "NASA/JPL-Caltech/Cornell Univ./USGS/Modesto Junior College",
+      "creditVerified": true,
+      "aspect": "1/1",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA16139",
+        "fallback": "photojournal"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Spheres",
+        "Blueberries"
+      ]
+    },
+    "pia05824": {
+      "id": "pia05824",
+      "mission": "opportunity",
+      "file": "opportunity/pia05824.jpg",
+      "title": "Inside a hole drilled by the rock abrasion tool",
+      "caption": "Five Microscopic Imager frames of the hole the Rock Abrasion Tool ground into the rock Pilbara on sol 87. The hole is 4.5 cm wide and 7.2 mm deep, and a sliced blueberry sits near its centre.",
+      "alt": "A circular, shallow hole in rock with a ring of fine powder and a cut dark spherule near the centre.",
+      "nasaId": "PIA05824",
+      "type": "mosaic",
+      "sourcePage": "https://photojournal.jpl.nasa.gov/catalog/PIA05824",
+      "credit": "NASA/JPL/Cornell/USGS",
+      "creditVerified": true,
+      "aspect": "1/1",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA05824",
+        "fallback": "photojournal"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Pilbara",
+        "abrasion",
+        "hole"
+      ]
+    },
+    "pia22871": {
+      "id": "pia22871",
+      "mission": "insight",
+      "file": "insight/pia22871.jpg",
+      "title": "InSight's deck and two science instruments",
+      "caption": "On sol 8 (4 December 2018) InSight's deployment camera surveyed its own deck. In the foreground the copper-coloured hexagonal cover protects SEIS, the seismometer; the dark cylinder beside it is the heat-flow probe housing.",
+      "alt": "A lander deck seen from above on a pale Martian surface, with a copper hexagonal cover, a grey dome and a dark cylindrical instrument.",
+      "nasaId": "PIA22871",
+      "type": "mosaic",
+      "sourcePage": "https://science.nasa.gov/photojournal/full-view-of-insights-deck-and-two-science-instruments",
+      "credit": "NASA/JPL-Caltech",
+      "creditVerified": true,
+      "aspect": "16/9",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA22871",
+        "fallback": "photojournal"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Deck",
+        "InSight"
+      ]
+    },
+    "pia23177": {
+      "id": "pia23177",
+      "mission": "insight",
+      "file": "insight/pia23177.jpg",
+      "title": "SEIS under its wind and thermal shield",
+      "caption": "The dome-shaped Wind and Thermal Shield covering the SEIS seismometer on the 110th sol of the mission. The seismometer was provided by France's CNES, with the principal investigator at IPGP in Paris.",
+      "alt": "A grey dome sitting on reddish Martian ground, with the lander's robotic arm in view.",
+      "nasaId": "PIA23177",
+      "type": "photograph",
+      "sourcePage": "https://science.nasa.gov/photojournal/insights-seismometer-on-the-martian-surface",
+      "credit": "NASA/JPL-Caltech",
+      "creditVerified": true,
+      "aspect": "4/3",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA23177",
+        "fallback": "photojournal"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Seismometer"
+      ]
+    },
+    "pia22956": {
+      "id": "pia22956",
+      "mission": "insight",
+      "file": "insight/pia22956.jpg",
+      "title": "SEIS deployed on Mars",
+      "caption": "InSight placed its seismometer on the surface on 19 December 2018 at around Martian dusk: the first time a spacecraft had robotically set a seismometer onto another planet.",
+      "alt": "A copper-coloured instrument resting on sandy Martian ground, held at the end of a robotic arm's grapple.",
+      "nasaId": "PIA22956",
+      "type": "photograph",
+      "sourcePage": "https://photojournal.jpl.nasa.gov/catalog/PIA22956",
+      "credit": "NASA/JPL-Caltech",
+      "creditVerified": false,
+      "aspect": "4/3",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA22956",
+        "fallback": "photojournal"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "SEIS"
+      ]
+    },
+    "pia22978": {
+      "id": "pia22978",
+      "mission": "insight",
+      "file": "insight/pia22978.jpg",
+      "title": "InSight placing its seismometer (fish-eye view)",
+      "caption": "A fish-eye view from InSight's context camera of the robotic arm setting down its first instrument on 19 December 2018.",
+      "alt": "A wide fish-eye view of a lander deck and robotic arm lowering an instrument toward the ground.",
+      "nasaId": "PIA22978",
+      "type": "photograph",
+      "sourcePage": "https://science.nasa.gov/photojournal/insight-seismometer-in-motion/",
+      "credit": "NASA/JPL-Caltech",
+      "creditVerified": false,
+      "aspect": "4/3",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA22978",
+        "fallback": "photojournal"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Seismometer",
+        "SEIS"
+      ]
+    },
+    "pia22743": {
+      "id": "pia22743",
+      "mission": "insight",
+      "file": "insight/pia22743.jpg",
+      "title": "InSight deploys its instruments (artist's concept)",
+      "caption": "NASA/JPL-Caltech artist's concept of InSight after deploying its instruments. This is an illustration, not a photograph.",
+      "alt": "An illustration of the InSight lander on Mars with a seismometer dome and a heat probe set out on the ground in front of it.",
+      "nasaId": "PIA22743",
+      "type": "artist concept",
+      "sourcePage": "https://science.nasa.gov/photojournal/insight-deploys-its-instruments/",
+      "credit": "NASA/JPL-Caltech",
+      "creditVerified": true,
+      "aspect": "16/9",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA22743",
+        "fallback": "photojournal"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Deploys"
+      ]
+    },
+    "pia14317": {
+      "id": "pia14317",
+      "mission": "dawn",
+      "file": "dawn/pia14317.jpg",
+      "title": "Full-frame image of Vesta",
+      "caption": "Dawn's framing camera view of the giant asteroid Vesta on 24 July 2011 from 5,200 km, a few days after Dawn entered orbit. Craters of all sizes and grooves parallel to the equator are visible.",
+      "alt": "A grey, battered, slightly flattened world with many craters and a band of parallel grooves around its equator.",
+      "nasaId": "PIA14317",
+      "type": "photograph",
+      "sourcePage": "https://photojournal.jpl.nasa.gov/catalog/PIA14317",
+      "credit": "NASA/JPL-Caltech/UCLA/MPS/DLR/IDA",
+      "creditVerified": true,
+      "aspect": "1/1",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA14317",
+        "fallback": "photojournal"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Vesta"
+      ]
+    },
+    "pia20350": {
+      "id": "pia20350",
+      "mission": "dawn",
+      "file": "dawn/pia20350.jpg",
+      "title": "Occator Crater and Ceres' brightest spots",
+      "caption": "Occator Crater is 92 km across and 4 km deep. At its centre Dawn found a dome inside a smooth-walled pit, cut by fractures, in the brightest area on Ceres.",
+      "alt": "A dark cratered landscape with a cluster of intensely bright patches and a small dome at the centre of a large crater.",
+      "nasaId": "PIA20350",
+      "type": "mosaic",
+      "sourcePage": "https://science.nasa.gov/photojournal/occator-crater-and-ceres-brightest-spots",
+      "credit": "NASA/JPL-Caltech/UCLA/MPS/DLR/IDA",
+      "creditVerified": false,
+      "aspect": "4/3",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA20350",
+        "fallback": "photojournal"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Occator"
+      ]
+    },
+    "pia19889": {
+      "id": "pia19889",
+      "mission": "dawn",
+      "file": "dawn/pia19889.jpg",
+      "title": "Dawn takes a closer look at Occator",
+      "caption": "Occator crater on Ceres, home to a collection of bright spots far brighter than the rest of the surface, from Dawn's high-altitude mapping orbit.",
+      "alt": "A cratered grey surface with a cluster of very bright white spots inside one crater.",
+      "nasaId": "PIA19889",
+      "type": "processed image",
+      "sourcePage": "https://science.nasa.gov/resource/dawn-takes-a-closer-look-at-occator/",
+      "credit": "NASA/JPL-Caltech/UCLA/MPS/DLR/IDA",
+      "creditVerified": true,
+      "aspect": "1/1",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA19889",
+        "fallback": "photojournal"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Occator"
+      ]
+    },
+    "pia21398": {
+      "id": "pia21398",
+      "mission": "dawn",
+      "file": "dawn/pia21398.jpg",
+      "title": "Occator's bright spots in 3-D",
+      "caption": "A red-blue 3-D anaglyph of the centre of Occator Crater built from Dawn data. A 2017 study estimated the central bright area is about 4 million years old, much younger than the crater itself at about 34 million years.",
+      "alt": "A red-and-cyan stereo view of a crater floor with a bright domed centre.",
+      "nasaId": "PIA21398",
+      "type": "processed image",
+      "sourcePage": "https://pds-rings.seti.org/press_releases/pages/PIA21xxx/PIA21398.html",
+      "credit": "NASA/JPL-Caltech/UCLA/MPS/DLR/IDA",
+      "creditVerified": false,
+      "aspect": "4/3",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "nasa-library",
+        "id": "PIA21398",
+        "fallback": "photojournal"
+      },
+      "confidence": "page-confirmed",
+      "expectTitle": [
+        "Occator"
+      ]
+    },
+    "dawn-artist-concept": {
+      "id": "dawn-artist-concept",
+      "mission": "dawn",
+      "file": "dawn/artist-concept.jpg",
+      "title": "Dawn approaching Ceres (artist's concept)",
+      "caption": "NASA/JPL-Caltech artist's concept of Dawn approaching Ceres, with its ion propulsion system glowing blue as it expels ionised xenon. This is an illustration, not a photograph.",
+      "alt": "An illustration of a spacecraft with two long solar arrays and a blue ion glow approaching a grey dwarf planet.",
+      "nasaId": null,
+      "type": "artist concept",
+      "sourcePage": "https://solarsystem.nasa.gov/news/493/10-things-to-know-about-dawn",
+      "credit": "NASA/JPL-Caltech",
+      "creditVerified": true,
+      "aspect": "16/9",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "scrape",
+        "page": "https://solarsystem.nasa.gov/news/493/10-things-to-know-about-dawn",
+        "match": "dawn"
+      },
+      "confidence": "page-confirmed-image-token-unchecked",
+      "expectTitle": []
+    },
+    "pioneer-plaque": {
+      "id": "pioneer-plaque",
+      "mission": "pioneer-10",
+      "file": "pioneer-10/plaque.jpg",
+      "title": "The Pioneer plaque",
+      "caption": "Drawing of the gold-anodised aluminium plaque carried by Pioneer 10. Designed by Carl Sagan, Frank Drake and Linda Salzman Sagan, it shows a man and a woman, the Solar System, and the spacecraft's origin relative to 14 pulsars.",
+      "alt": "A rectangular engraved plaque showing a nude man and woman in front of the spacecraft outline, with a map of lines radiating from a point and a diagram of the Solar System along the bottom.",
+      "nasaId": null,
+      "type": "diagram",
+      "sourcePage": "https://www.nasa.gov/history/50-years-ago-pioneer-10-launches-to-explore-jupiter",
+      "credit": "NASA",
+      "creditVerified": false,
+      "aspect": "3/2",
+      "fit": "contain",
+      "position": "center",
+      "acquire": {
+        "method": "scrape",
+        "page": "https://www.nasa.gov/history/50-years-ago-pioneer-10-launches-to-explore-jupiter",
+        "match": "plaque"
+      },
+      "confidence": "page-confirmed-image-token-unchecked",
+      "expectTitle": []
+    },
+    "pioneer-jupiter-composite": {
+      "id": "pioneer-jupiter-composite",
+      "mission": "pioneer-10",
+      "file": "pioneer-10/jupiter-composite.jpg",
+      "title": "Pioneer 10 images of Jupiter, Europa and Ganymede",
+      "caption": "Composite of Pioneer 10 images of Jupiter with insets of Europa and Ganymede. The planet and moons are not shown to scale.",
+      "alt": "A banded orange-and-cream Jupiter with two small inset views of its moons.",
+      "nasaId": null,
+      "type": "mosaic",
+      "sourcePage": "https://www.nasa.gov/history/50-years-ago-pioneer-10-launches-to-explore-jupiter",
+      "credit": "NASA/Ames Research Center",
+      "creditVerified": false,
+      "aspect": "4/3",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "scrape",
+        "page": "https://www.nasa.gov/history/50-years-ago-pioneer-10-launches-to-explore-jupiter",
+        "match": "composite"
+      },
+      "confidence": "page-confirmed-image-token-unchecked",
+      "expectTitle": []
+    },
+    "pioneer-artist-concept": {
+      "id": "pioneer-artist-concept",
+      "mission": "pioneer-10",
+      "file": "pioneer-10/artist-concept.jpg",
+      "title": "Pioneer 10 at Jupiter (artist's concept)",
+      "caption": "Illustration of Pioneer 10 during its Jupiter encounter. This is an artist's concept, not a photograph.",
+      "alt": "An illustration of the Pioneer spacecraft with its dish antenna facing Earth, with Jupiter large behind it.",
+      "nasaId": null,
+      "type": "artist concept",
+      "sourcePage": "https://www.nasa.gov/history/50-years-ago-pioneer-10-launches-to-explore-jupiter",
+      "credit": "NASA",
+      "creditVerified": false,
+      "aspect": "16/9",
+      "fit": "cover",
+      "position": "center",
+      "acquire": {
+        "method": "scrape",
+        "page": "https://www.nasa.gov/history/50-years-ago-pioneer-10-launches-to-explore-jupiter",
+        "match": "art"
+      },
+      "confidence": "page-confirmed-image-token-unchecked",
+      "expectTitle": []
+    }
+  },
+  "missions": {
+    "voyager-1": {
+      "card": "pia00452",
+      "gallery": [
+        "pia00379",
+        "pia00451",
+        "pia00375",
+        "voyager-golden-record",
+        "voyager-artist-concept"
+      ]
+    },
+    "alsep": {
+      "card": "as12-46-6817",
+      "gallery": [
+        "as12-47-6921",
+        "as12-47-6919"
+      ]
+    },
+    "surveyor-3": {
+      "card": "as12-48-7133",
+      "gallery": [
+        "as12-48-7090"
+      ]
+    },
+    "sojourner": {
+      "card": "pia01003",
+      "gallery": [
+        "pia00766",
+        "pia01122"
+      ]
+    },
+    "opportunity": {
+      "card": "pia05588",
+      "gallery": [
+        "pia19113",
+        "pia16139",
+        "pia05824"
+      ]
+    },
+    "insight": {
+      "card": "pia22871",
+      "gallery": [
+        "pia23177",
+        "pia22956",
+        "pia22978",
+        "pia22743"
+      ]
+    },
+    "dawn": {
+      "card": "pia14317",
+      "gallery": [
+        "pia20350",
+        "pia19889",
+        "pia21398",
+        "dawn-artist-concept"
+      ]
+    },
+    "pioneer-10": {
+      "card": "pioneer-jupiter-composite",
+      "gallery": [
+        "pioneer-plaque",
+        "pioneer-artist-concept"
+      ]
+    }
+  },
+  "destinations": {
+    "moon": {
+      "image": "as12-48-7133"
+    },
+    "mars": {
+      "image": "pia01003"
+    },
+    "belt": {
+      "image": "pia14317"
+    },
+    "deep": {
+      "image": "pia00451"
+    }
+  }
+}

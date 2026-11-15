@@ -1,0 +1,311 @@
+[
+  {
+    "id": "pia00452",
+    "file": "voyager-1/pia00452.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA00452/PIA00452~orig.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL. Manifest credit: NASA/JPL."
+    ]
+  },
+  {
+    "id": "pia00451",
+    "file": "voyager-1/pia00451.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA00451/PIA00451~orig.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL. Manifest credit: NASA/JPL."
+    ]
+  },
+  {
+    "id": "pia00379",
+    "file": "voyager-1/pia00379.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA00379/PIA00379~orig.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL. Manifest credit: NASA/JPL."
+    ]
+  },
+  {
+    "id": "pia00373",
+    "file": "voyager-1/pia00373.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA00373/PIA00373~orig.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL. Manifest credit: NASA/JPL."
+    ]
+  },
+  {
+    "id": "pia00375",
+    "file": "voyager-1/pia00375.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA00375/PIA00375~orig.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL. Manifest credit: NASA/JPL."
+    ]
+  },
+  {
+    "id": "voyager-golden-record",
+    "file": "voyager-1/golden-record.jpg",
+    "status": "downloaded",
+    "via": "page-scrape",
+    "url": "https://assets.science.nasa.gov/content/dam/science/cds/nightsky/2024/monthly-webinars/NSN2026_NovWebinar.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png",
+    "warnings": []
+  },
+  {
+    "id": "voyager-artist-concept",
+    "file": "voyager-1/artist-concept.jpg",
+    "status": "downloaded",
+    "via": "page-scrape",
+    "url": "https://assets.science.nasa.gov/content/dam/science/missions/voyager/images/1_Voyager_artist_concept.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "warnings": []
+  },
+  {
+    "id": "as12-47-6921",
+    "file": "alsep/as12-47-6921.jpg",
+    "status": "FAILED",
+    "via": "",
+    "url": "",
+    "warnings": [
+      "no downloadable image found"
+    ]
+  },
+  {
+    "id": "as12-46-6817",
+    "file": "alsep/as12-46-6817.jpg",
+    "status": "FAILED",
+    "via": "",
+    "url": "",
+    "warnings": [
+      "no downloadable image found"
+    ]
+  },
+  {
+    "id": "as12-47-6919",
+    "file": "alsep/as12-47-6919.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/as12-47-6919/as12-47-6919~large.jpg",
+    "warnings": [
+      "NASA credit data: center=JSC; photographer=?. Manifest credit: NASA."
+    ]
+  },
+  {
+    "id": "as12-48-7133",
+    "file": "surveyor-3/as12-48-7133.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/AS12-48-7133/AS12-48-7133~large.jpg",
+    "warnings": [
+      "NASA credit data: center=JSC; photographer=?. Manifest credit: NASA."
+    ]
+  },
+  {
+    "id": "as12-48-7090",
+    "file": "surveyor-3/as12-48-7090.jpg",
+    "status": "FAILED",
+    "via": "",
+    "url": "",
+    "warnings": [
+      "no downloadable image found"
+    ]
+  },
+  {
+    "id": "pia01003",
+    "file": "sojourner/pia01003.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA01003/PIA01003~orig.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL. Manifest credit: NASA/JPL."
+    ]
+  },
+  {
+    "id": "pia00766",
+    "file": "sojourner/pia00766.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA00766/PIA00766~orig.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL. Manifest credit: NASA/JPL."
+    ]
+  },
+  {
+    "id": "pia01122",
+    "file": "sojourner/pia01122.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA01122/PIA01122~orig.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL. Manifest credit: NASA/JPL."
+    ]
+  },
+  {
+    "id": "pia05588",
+    "file": "opportunity/pia05588.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA05588/PIA05588~orig.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL/Cornell. Manifest credit: NASA/JPL/Cornell."
+    ]
+  },
+  {
+    "id": "pia19113",
+    "file": "opportunity/pia19113.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA19113/PIA19113~orig.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL-Caltech/Cornell/USGS. Manifest credit: NASA/JPL-Caltech/Cornell/USGS."
+    ]
+  },
+  {
+    "id": "pia16139",
+    "file": "opportunity/pia16139.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA16139/PIA16139~medium.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL-Caltech/Cornell Univ./ USGS/Modesto Junior College. Manifest credit: NASA/JPL-Caltech/Cornell Univ./USGS/Modesto Junior College."
+    ]
+  },
+  {
+    "id": "pia05824",
+    "file": "opportunity/pia05824.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA05824/PIA05824~large.jpg",
+    "warnings": [
+      "TITLE CHECK: NASA calls this \"Blueberry Exposed\", expected one of: Pilbara, abrasion, hole. Make sure it is the right picture.",
+      "NASA credit data: center=JPL; photographer=NASA/JPL/Cornell/USGS. Manifest credit: NASA/JPL/Cornell/USGS."
+    ]
+  },
+  {
+    "id": "pia22871",
+    "file": "insight/pia22871.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA22871/PIA22871~orig.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL-Caltech. Manifest credit: NASA/JPL-Caltech."
+    ]
+  },
+  {
+    "id": "pia23177",
+    "file": "insight/pia23177.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA23177/PIA23177~orig.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL-Caltech. Manifest credit: NASA/JPL-Caltech."
+    ]
+  },
+  {
+    "id": "pia22956",
+    "file": "insight/pia22956.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA22956/PIA22956~orig.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL-Caltech. Manifest credit: NASA/JPL-Caltech."
+    ]
+  },
+  {
+    "id": "pia22978",
+    "file": "insight/pia22978.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA22978/PIA22978~medium.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL-Caltech. Manifest credit: NASA/JPL-Caltech."
+    ]
+  },
+  {
+    "id": "pia22743",
+    "file": "insight/pia22743.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA22743/PIA22743~large.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL-Caltech. Manifest credit: NASA/JPL-Caltech."
+    ]
+  },
+  {
+    "id": "pia14317",
+    "file": "dawn/pia14317.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA14317/PIA14317~orig.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL-Caltech/UCLA/MPS/DLR/IDA. Manifest credit: NASA/JPL-Caltech/UCLA/MPS/DLR/IDA."
+    ]
+  },
+  {
+    "id": "pia20350",
+    "file": "dawn/pia20350.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA20350/PIA20350~large.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL-Caltech/UCLA/MPS/DLR/IDA/PSI. Manifest credit: NASA/JPL-Caltech/UCLA/MPS/DLR/IDA."
+    ]
+  },
+  {
+    "id": "pia19889",
+    "file": "dawn/pia19889.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA19889/PIA19889~orig.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL-Caltech/UCLA/MPS/DLR/IDA. Manifest credit: NASA/JPL-Caltech/UCLA/MPS/DLR/IDA."
+    ]
+  },
+  {
+    "id": "pia21398",
+    "file": "dawn/pia21398.jpg",
+    "status": "downloaded",
+    "via": "nasa-library",
+    "url": "http://images-assets.nasa.gov/image/PIA21398/PIA21398~orig.jpg",
+    "warnings": [
+      "NASA credit data: center=JPL; photographer=NASA/JPL-Caltech/UCLA/MPS/DLR/IDA. Manifest credit: NASA/JPL-Caltech/UCLA/MPS/DLR/IDA."
+    ]
+  },
+  {
+    "id": "dawn-artist-concept",
+    "file": "dawn/artist-concept.jpg",
+    "status": "downloaded",
+    "via": "page-scrape",
+    "url": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26728-fig-a-curiosity-captures-dawn-breaking-on-wind-carved-cliffs.png",
+    "warnings": []
+  },
+  {
+    "id": "pioneer-plaque",
+    "file": "pioneer-10/plaque.jpg",
+    "status": "downloaded",
+    "via": "page-scrape",
+    "url": "https://www.nasa.gov/wp-content/uploads/2022/03/pioneer_10_launch_9_plaque.jpg",
+    "warnings": []
+  },
+  {
+    "id": "pioneer-jupiter-composite",
+    "file": "pioneer-10/jupiter-composite.jpg",
+    "status": "downloaded",
+    "via": "page-scrape",
+    "url": "https://www.nasa.gov/wp-content/uploads/2022/03/pioneer_10_launch_7_jupiter_europa_ganymede_composite.jpg",
+    "warnings": []
+  },
+  {
+    "id": "pioneer-artist-concept",
+    "file": "pioneer-10/artist-concept.jpg",
+    "status": "downloaded",
+    "via": "page-scrape",
+    "url": "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-advisory-image-2-nov-10.jpg",
+    "warnings": []
+  }
+]

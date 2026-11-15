@@ -1,0 +1,857 @@
+{
+  "subjects": [
+    {
+      "id": "geology",
+      "title": "Planetary geology",
+      "blurb": "What surfaces are made of, how they formed and what shaped them, including the history of water."
+    },
+    {
+      "id": "atmospheres",
+      "title": "Atmospheres and exospheres",
+      "blurb": "The gases around a world, from thick atmospheres to almost nothing."
+    },
+    {
+      "id": "interiors",
+      "title": "Planetary interiors",
+      "blurb": "What lies beneath the surface: layers, cores and the heat that escapes."
+    },
+    {
+      "id": "plasma",
+      "title": "Magnetospheres and plasma",
+      "blurb": "Magnetic fields, charged particles and radiation, around planets and at the edge of the Sun’s influence."
+    },
+    {
+      "id": "astrobiology",
+      "title": "Astrobiology: habitability and organics",
+      "blurb": "Water chemistry and organic material that bear on whether a place could have been habitable. No mission in this archive found life.",
+      "caution": "These findings concern conditions and chemistry. None is evidence of life."
+    },
+    {
+      "id": "engineering",
+      "title": "Space exploration engineering",
+      "blurb": "What the missions proved about how to build, land, power and operate spacecraft."
+    }
+  ],
+  "instrumentCategories": [
+    {
+      "id": "imaging",
+      "title": "Imaging",
+      "blurb": "Cameras record light to show shape, texture and change. They show what a place looks like, not by themselves what it is made of."
+    },
+    {
+      "id": "composition",
+      "title": "Composition and temperature",
+      "blurb": "Spectrometers and radiometers split light or radiation into its parts, which act as fingerprints for elements, minerals and temperature."
+    },
+    {
+      "id": "interior",
+      "title": "Interiors and structure",
+      "blurb": "Seismometers, heat probes and radio tracking infer what lies below the surface from waves, heat flow and tiny changes in motion."
+    },
+    {
+      "id": "fields",
+      "title": "Magnetic fields",
+      "blurb": "Magnetometers measure the strength and direction of magnetic fields."
+    },
+    {
+      "id": "plasma",
+      "title": "Plasma, particles and dust",
+      "blurb": "These instruments count and sort charged particles, waves in plasma and impacting dust."
+    },
+    {
+      "id": "surface",
+      "title": "Surface and soil contact",
+      "blurb": "Tools that touch the ground, dig, grind or press, and show how material behaves."
+    },
+    {
+      "id": "atmosphere",
+      "title": "Atmosphere and weather",
+      "blurb": "Sensors for gas, pressure, wind and temperature near the surface."
+    }
+  ],
+  "instrumentCategoryByMission": {
+    "voyager-1": {
+      "Imaging Science System (cameras)": "imaging",
+      "Infrared Interferometer Spectrometer and Radiometer (IRIS)": "composition",
+      "Plasma Science (PLS)": "plasma",
+      "Cosmic Ray Subsystem (CRS)": "plasma",
+      "Low-Energy Charged Particles (LECP)": "plasma",
+      "Magnetometer (MAG)": "fields",
+      "Plasma Wave Subsystem (PWS)": "plasma"
+    },
+    "alsep": {
+      "Passive Seismic Experiment": "interior",
+      "Heat Flow Experiment": "interior",
+      "Lunar Surface Magnetometer": "fields",
+      "Solar Wind Spectrometer": "plasma",
+      "Cold Cathode Gauge and atmospheric experiments": "atmosphere"
+    },
+    "surveyor-3": {
+      "Television camera": "imaging",
+      "Soil mechanics surface sampler": "surface"
+    },
+    "sojourner": {
+      "Alpha Proton X-ray Spectrometer (APXS)": "composition",
+      "Cameras and laser light stripers": "imaging",
+      "Soil mechanics and wheel experiments": "surface",
+      "Imager for Mars Pathfinder (on the lander)": "imaging"
+    },
+    "opportunity": {
+      "Panoramic Camera (Pancam) and Navigation Camera": "imaging",
+      "Miniature Thermal Emission Spectrometer (Mini-TES)": "composition",
+      "Alpha Particle X-ray Spectrometer (APXS)": "composition",
+      "Mössbauer Spectrometer": "composition",
+      "Microscopic Imager": "imaging",
+      "Rock Abrasion Tool (RAT)": "surface"
+    },
+    "insight": {
+      "SEIS (Seismic Experiment for Interior Structure)": "interior",
+      "HP3 (Heat Flow and Physical Properties Package)": "interior",
+      "RISE (Rotation and Interior Structure Experiment)": "interior",
+      "Weather, pressure and magnetic sensors": "atmosphere"
+    },
+    "dawn": {
+      "Framing Camera": "imaging",
+      "Visible and Infrared Mapping Spectrometer (VIR)": "composition",
+      "Gamma Ray and Neutron Detector (GRaND)": "composition",
+      "Radio science (gravity)": "interior"
+    },
+    "pioneer-10": {
+      "Imaging Photopolarimeter": "imaging",
+      "Helium Vector Magnetometer": "fields",
+      "Infrared Radiometer": "composition",
+      "Quadrispherical Plasma Analyzer": "plasma",
+      "Ultraviolet Photometer": "composition",
+      "Charged Particle Instrument and Cosmic Ray Telescope": "plasma",
+      "Meteoroid and asteroid/meteoroid detectors": "plasma"
+    }
+  },
+  "discoveries": [
+    {
+      "id": "v-io",
+      "mission": "voyager-1",
+      "title": "Io is volcanically active",
+      "type": "finding",
+      "subjects": [
+        "geology"
+      ],
+      "instruments": [
+        "Imaging Science System (cameras)",
+        "Infrared Interferometer Spectrometer and Radiometer (IRIS)"
+      ],
+      "observed": [
+        {
+          "from": "directVsInterpreted",
+          "index": 0
+        }
+      ],
+      "interpreted": [
+        {
+          "from": "directVsInterpreted",
+          "index": 1
+        }
+      ],
+      "headline": 0,
+      "caution": [],
+      "note": null
+    },
+    {
+      "id": "v-helio",
+      "mission": "voyager-1",
+      "title": "Voyager 1 sampled interstellar plasma",
+      "type": "finding",
+      "subjects": [
+        "plasma"
+      ],
+      "instruments": [
+        "Plasma Wave Subsystem (PWS)",
+        "Cosmic Ray Subsystem (CRS)",
+        "Low-Energy Charged Particles (LECP)"
+      ],
+      "observed": [
+        {
+          "from": "directVsInterpreted",
+          "index": 2
+        }
+      ],
+      "interpreted": [
+        {
+          "from": "directVsInterpreted",
+          "index": 3
+        }
+      ],
+      "headline": 1,
+      "caution": [],
+      "note": null
+    },
+    {
+      "id": "v-titan",
+      "mission": "voyager-1",
+      "title": "Titan has a thick atmosphere",
+      "type": "finding",
+      "subjects": [
+        "atmospheres"
+      ],
+      "instruments": [],
+      "observed": [
+        {
+          "from": "ripple",
+          "index": 2
+        }
+      ],
+      "interpreted": [],
+      "note": "This archive’s story does not name which instrument made the Titan measurements, so none is linked here.",
+      "caution": [],
+      "headline": null
+    },
+    {
+      "id": "v-eng",
+      "mission": "voyager-1",
+      "title": "Nuclear-powered operation for almost half a century",
+      "type": "engineering",
+      "subjects": [
+        "engineering"
+      ],
+      "instruments": [],
+      "observed": [
+        {
+          "from": "technology"
+        }
+      ],
+      "interpreted": [],
+      "caution": [],
+      "note": null,
+      "headline": null
+    },
+    {
+      "id": "a-interior",
+      "mission": "alsep",
+      "title": "The Moon’s interior is layered",
+      "type": "finding",
+      "subjects": [
+        "interiors"
+      ],
+      "instruments": [
+        "Passive Seismic Experiment"
+      ],
+      "observed": [
+        {
+          "from": "directVsInterpreted",
+          "index": 0
+        }
+      ],
+      "interpreted": [
+        {
+          "from": "directVsInterpreted",
+          "index": 2
+        }
+      ],
+      "headline": 0,
+      "caution": [],
+      "note": null
+    },
+    {
+      "id": "a-quakes",
+      "mission": "alsep",
+      "title": "The Moon is seismically active, but quiet",
+      "type": "finding",
+      "subjects": [
+        "interiors"
+      ],
+      "instruments": [
+        "Passive Seismic Experiment"
+      ],
+      "observed": [
+        {
+          "from": "evidence",
+          "index": 0
+        }
+      ],
+      "interpreted": [],
+      "caution": [],
+      "note": null,
+      "headline": null
+    },
+    {
+      "id": "a-heat",
+      "mission": "alsep",
+      "title": "Heat leaving the Moon, and a very thin exosphere",
+      "type": "finding",
+      "subjects": [
+        "interiors",
+        "atmospheres"
+      ],
+      "instruments": [
+        "Heat Flow Experiment",
+        "Cold Cathode Gauge and atmospheric experiments"
+      ],
+      "observed": [
+        {
+          "from": "directVsInterpreted",
+          "index": 1
+        }
+      ],
+      "interpreted": [
+        {
+          "from": "directVsInterpreted",
+          "index": 3
+        }
+      ],
+      "headline": 1,
+      "caution": [],
+      "note": null
+    },
+    {
+      "id": "a-eng",
+      "mission": "alsep",
+      "title": "Long-lived instruments on another world",
+      "type": "engineering",
+      "subjects": [
+        "engineering"
+      ],
+      "instruments": [],
+      "observed": [
+        {
+          "from": "technology"
+        }
+      ],
+      "interpreted": [],
+      "caution": [],
+      "note": null,
+      "headline": null
+    },
+    {
+      "id": "s-soil",
+      "mission": "surveyor-3",
+      "title": "Lunar soil could bear a lander",
+      "type": "finding",
+      "subjects": [
+        "geology",
+        "engineering"
+      ],
+      "instruments": [
+        "Soil mechanics surface sampler",
+        "Television camera"
+      ],
+      "observed": [
+        {
+          "from": "directVsInterpreted",
+          "index": 0
+        }
+      ],
+      "interpreted": [
+        {
+          "from": "directVsInterpreted",
+          "index": 1
+        }
+      ],
+      "headline": 0,
+      "caution": [],
+      "note": null
+    },
+    {
+      "id": "s-eng",
+      "mission": "surveyor-3",
+      "title": "A ground-truth test for Apollo landing",
+      "type": "engineering",
+      "subjects": [
+        "engineering"
+      ],
+      "instruments": [],
+      "observed": [
+        {
+          "from": "technology"
+        }
+      ],
+      "interpreted": [],
+      "caution": [],
+      "note": null,
+      "headline": null
+    },
+    {
+      "id": "j-rocks",
+      "mission": "sojourner",
+      "title": "Mars’s rocks differ, and some were water-worn",
+      "type": "finding",
+      "subjects": [
+        "geology"
+      ],
+      "instruments": [
+        "Alpha Proton X-ray Spectrometer (APXS)",
+        "Cameras and laser light stripers",
+        "Imager for Mars Pathfinder (on the lander)"
+      ],
+      "observed": [
+        {
+          "from": "directVsInterpreted",
+          "index": 0
+        }
+      ],
+      "interpreted": [
+        {
+          "from": "directVsInterpreted",
+          "index": 1
+        }
+      ],
+      "caution": [
+        {
+          "from": "directVsInterpreted",
+          "index": 2
+        }
+      ],
+      "headline": 0,
+      "note": null
+    },
+    {
+      "id": "j-eng",
+      "mission": "sojourner",
+      "title": "A rover can drive itself on Mars",
+      "type": "engineering",
+      "subjects": [
+        "engineering"
+      ],
+      "instruments": [],
+      "observed": [
+        {
+          "from": "technology"
+        }
+      ],
+      "interpreted": [],
+      "caution": [],
+      "note": null,
+      "headline": null
+    },
+    {
+      "id": "o-water",
+      "mission": "opportunity",
+      "title": "Water once soaked Meridiani Planum",
+      "type": "finding",
+      "subjects": [
+        "geology",
+        "astrobiology"
+      ],
+      "instruments": [
+        "Microscopic Imager",
+        "Mössbauer Spectrometer",
+        "Alpha Particle X-ray Spectrometer (APXS)",
+        "Rock Abrasion Tool (RAT)"
+      ],
+      "observed": [
+        {
+          "from": "directVsInterpreted",
+          "index": 0
+        }
+      ],
+      "interpreted": [
+        {
+          "from": "directVsInterpreted",
+          "index": 1
+        }
+      ],
+      "caution": [
+        {
+          "from": "directVsInterpreted",
+          "index": 2
+        }
+      ],
+      "headline": 0,
+      "note": null
+    },
+    {
+      "id": "o-kirkwood",
+      "mission": "opportunity",
+      "title": "Veins of gypsum, and look-alike spherules with a different makeup",
+      "type": "finding",
+      "subjects": [
+        "geology"
+      ],
+      "instruments": [
+        "Microscopic Imager"
+      ],
+      "observed": [
+        {
+          "from": "evidence",
+          "index": 2
+        }
+      ],
+      "interpreted": [],
+      "headline": 1,
+      "caution": [],
+      "note": null
+    },
+    {
+      "id": "o-eng",
+      "mission": "opportunity",
+      "title": "A solar-powered rover that lasted more than a decade",
+      "type": "engineering",
+      "subjects": [
+        "engineering"
+      ],
+      "instruments": [],
+      "observed": [
+        {
+          "from": "technology"
+        }
+      ],
+      "interpreted": [],
+      "caution": [],
+      "note": null,
+      "headline": null
+    },
+    {
+      "id": "i-core",
+      "mission": "insight",
+      "title": "Mars has a liquid core",
+      "type": "finding",
+      "subjects": [
+        "interiors"
+      ],
+      "instruments": [
+        "SEIS (Seismic Experiment for Interior Structure)",
+        "RISE (Rotation and Interior Structure Experiment)"
+      ],
+      "observed": [
+        {
+          "from": "directVsInterpreted",
+          "index": 0
+        }
+      ],
+      "interpreted": [
+        {
+          "from": "directVsInterpreted",
+          "index": 1
+        },
+        {
+          "from": "directVsInterpreted",
+          "index": 2
+        }
+      ],
+      "headline": 1,
+      "caution": [],
+      "note": null
+    },
+    {
+      "id": "i-active",
+      "mission": "insight",
+      "title": "Mars is still seismically active",
+      "type": "finding",
+      "subjects": [
+        "interiors"
+      ],
+      "instruments": [
+        "SEIS (Seismic Experiment for Interior Structure)"
+      ],
+      "observed": [
+        {
+          "from": "evidence",
+          "index": 0
+        }
+      ],
+      "interpreted": [],
+      "headline": 0,
+      "caution": [],
+      "note": null
+    },
+    {
+      "id": "i-heat",
+      "mission": "insight",
+      "title": "The heat probe could not reach depth, so Mars’s heat flow is unmeasured",
+      "type": "negative",
+      "subjects": [
+        "interiors"
+      ],
+      "instruments": [
+        "HP3 (Heat Flow and Physical Properties Package)"
+      ],
+      "observed": [
+        {
+          "from": "unanswered"
+        }
+      ],
+      "interpreted": [],
+      "caution": [],
+      "note": null,
+      "headline": null
+    },
+    {
+      "id": "i-eng",
+      "mission": "insight",
+      "title": "A seismometer placed robotically on another planet",
+      "type": "engineering",
+      "subjects": [
+        "engineering"
+      ],
+      "instruments": [],
+      "observed": [
+        {
+          "from": "technology"
+        }
+      ],
+      "interpreted": [],
+      "caution": [],
+      "note": null,
+      "headline": null
+    },
+    {
+      "id": "d-vesta",
+      "mission": "dawn",
+      "title": "Vesta: a dry, differentiated world tied to Earth’s meteorites",
+      "type": "finding",
+      "subjects": [
+        "geology"
+      ],
+      "instruments": [],
+      "observed": [
+        {
+          "from": "beforeAfterAfter",
+          "index": 1
+        }
+      ],
+      "interpreted": [],
+      "headline": 0,
+      "note": "This archive’s story does not name the instruments behind the Vesta result, so none is linked here.",
+      "caution": []
+    },
+    {
+      "id": "d-ceres",
+      "mission": "dawn",
+      "title": "Ceres’ bright spots are salts left by brine",
+      "type": "finding",
+      "subjects": [
+        "geology"
+      ],
+      "instruments": [
+        "Framing Camera",
+        "Visible and Infrared Mapping Spectrometer (VIR)"
+      ],
+      "observed": [
+        {
+          "from": "directVsInterpreted",
+          "index": 0
+        }
+      ],
+      "interpreted": [
+        {
+          "from": "directVsInterpreted",
+          "index": 1
+        }
+      ],
+      "headline": 1,
+      "caution": [],
+      "note": null
+    },
+    {
+      "id": "d-organics",
+      "mission": "dawn",
+      "title": "Organic material at Ernutet Crater",
+      "type": "finding",
+      "subjects": [
+        "astrobiology"
+      ],
+      "instruments": [
+        "Visible and Infrared Mapping Spectrometer (VIR)"
+      ],
+      "observed": [
+        {
+          "from": "evidence",
+          "index": 3
+        }
+      ],
+      "interpreted": [],
+      "caution": [
+        {
+          "from": "directVsInterpreted",
+          "index": 2
+        }
+      ],
+      "note": null,
+      "headline": null
+    },
+    {
+      "id": "d-eng",
+      "mission": "dawn",
+      "title": "Ion propulsion took one spacecraft to two worlds",
+      "type": "engineering",
+      "subjects": [
+        "engineering"
+      ],
+      "instruments": [],
+      "observed": [
+        {
+          "from": "technology"
+        }
+      ],
+      "interpreted": [],
+      "caution": [],
+      "note": null,
+      "headline": null
+    },
+    {
+      "id": "p-belt",
+      "mission": "pioneer-10",
+      "title": "The asteroid belt could be crossed",
+      "type": "finding",
+      "subjects": [
+        "engineering"
+      ],
+      "instruments": [
+        "Meteoroid and asteroid/meteoroid detectors"
+      ],
+      "observed": [
+        {
+          "from": "evidence",
+          "index": 2
+        }
+      ],
+      "interpreted": [],
+      "caution": [
+        {
+          "from": "directVsInterpreted",
+          "index": 2
+        }
+      ],
+      "headline": 0,
+      "note": null
+    },
+    {
+      "id": "p-jupiter",
+      "mission": "pioneer-10",
+      "title": "Jupiter’s radiation belts and magnetic field",
+      "type": "finding",
+      "subjects": [
+        "plasma"
+      ],
+      "instruments": [
+        "Helium Vector Magnetometer",
+        "Charged Particle Instrument and Cosmic Ray Telescope"
+      ],
+      "observed": [
+        {
+          "from": "evidence",
+          "index": 1
+        }
+      ],
+      "interpreted": [
+        {
+          "from": "directVsInterpreted",
+          "index": 1
+        }
+      ],
+      "headline": 1,
+      "caution": [],
+      "note": null
+    },
+    {
+      "id": "p-radiation",
+      "mission": "pioneer-10",
+      "title": "Radiation overwhelmed the camera at Io",
+      "type": "negative",
+      "subjects": [
+        "engineering"
+      ],
+      "instruments": [
+        "Imaging Photopolarimeter"
+      ],
+      "observed": [
+        {
+          "from": "evidence",
+          "index": 3
+        }
+      ],
+      "interpreted": [],
+      "caution": [],
+      "note": null,
+      "headline": null
+    },
+    {
+      "id": "p-eng",
+      "mission": "pioneer-10",
+      "title": "The first all-nuclear spacecraft",
+      "type": "engineering",
+      "subjects": [
+        "engineering"
+      ],
+      "instruments": [],
+      "observed": [
+        {
+          "from": "technology"
+        }
+      ],
+      "interpreted": [],
+      "caution": [],
+      "note": null,
+      "headline": null
+    }
+  ],
+  "connections": [
+    {
+      "id": "c-surveyor-alsep",
+      "to": "alsep",
+      "type": "enabling",
+      "typeLabel": "Indirect: made the landings possible",
+      "basis": [
+        {
+          "mission": "surveyor-3",
+          "from": "ripple",
+          "index": 0
+        }
+      ],
+      "note": "ALSEP was first deployed on Apollo 12 on 19 November 1969. Apollo 12 also visited Surveyor 3 the next day, 20 November 1969.",
+      "caveat": "Surveyor 3 did not shape ALSEP’s instruments. The link is that its soil results supported the crewed landings that carried ALSEP to the Moon.",
+      "status": "supported",
+      "from": "surveyor-3"
+    },
+    {
+      "id": "c-alsep-insight",
+      "to": "insight",
+      "type": "method",
+      "typeLabel": "Shared method: seismology",
+      "basis": [
+        {
+          "mission": "alsep",
+          "from": "ripple",
+          "index": 0
+        }
+      ],
+      "note": "Both missions read a world’s interior from the waves its quakes send through it.",
+      "caveat": "A shared idea, not shared hardware. This archive documents no engineering hand-off between the two.",
+      "status": "supported",
+      "from": "alsep"
+    },
+    {
+      "id": "c-pioneer-voyager",
+      "to": "voyager-1",
+      "type": "lineage",
+      "typeLabel": "Follow-on: results and message",
+      "basis": [
+        {
+          "mission": "pioneer-10",
+          "from": "ripple",
+          "index": 0
+        }
+      ],
+      "note": "Pioneer 10’s plaque and Voyager 1’s Golden Record are both messages attached to the spacecraft.",
+      "caveat": "The claim that Pioneer’s radiation findings shaped Voyager’s design is in this archive’s story but has not yet been re-checked against a NASA page.",
+      "status": "to-verify",
+      "from": "pioneer-10"
+    },
+    {
+      "id": "c-sojourner-opportunity",
+      "to": "opportunity",
+      "type": "lineage",
+      "typeLabel": "Lineage: rover technique and hardware",
+      "basis": [
+        {
+          "mission": "sojourner",
+          "from": "ripple",
+          "index": 0
+        }
+      ],
+      "note": "Opportunity was one of the two Mars Exploration Rovers, which followed Sojourner as mobile Mars explorers.",
+      "caveat": "The airbag and APXS details are in this archive’s story but have not yet been re-checked against a NASA page.",
+      "status": "to-verify",
+      "from": "sojourner"
+    }
+  ],
+  "method": "Subject groups, instrument categories and connections are curated by the STARSTUFF team from this archive’s mission data and mission stories. Every sentence shown for a finding is quoted from those sources; nothing here adds a new measurement."
+}

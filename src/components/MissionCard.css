@@ -1,0 +1,110 @@
+.mission-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  background: var(--gradient-card);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-lg);
+  transition:
+    border-color var(--transition-base),
+    transform var(--transition-base),
+    box-shadow var(--transition-base);
+}
+
+.mission-card:hover {
+  border-color: var(--color-border-gold);
+  box-shadow: var(--glow-violet);
+  transform: translateY(-3px);
+}
+
+/* The title link covers the whole card, so the card is one big click target. */
+.mission-card__link {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.mission-card__link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+}
+
+.mission-card__link:focus-visible {
+  outline: none;
+}
+
+.mission-card:has(.mission-card__link:focus-visible) {
+  outline: var(--border-width-strong) solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+.mission-card:hover .mission-card__link {
+  color: var(--color-gold);
+}
+
+.mission-card__top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-3);
+  min-height: 1.75rem;
+}
+
+.mission-card__year {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+
+.mission-card__title {
+  font-size: var(--text-lg);
+  transition: color var(--transition-fast);
+}
+
+.mission-card__facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-4);
+  font-size: var(--text-sm);
+  color: var(--color-blue);
+}
+
+.mission-card__facts li + li {
+  padding-left: var(--space-4);
+  border-left: var(--border-width) solid var(--color-border-strong);
+}
+
+.mission-card__summary {
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.mission-card__media {
+  padding: var(--space-3) var(--space-3) 0;
+}
+
+.mission-card__media .image-frame {
+  border-radius: var(--radius-md);
+}
+
+.mission-card__credit {
+  margin: var(--space-2) var(--space-1) 0;
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+
+.mission-card__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-5) var(--space-5);
+}

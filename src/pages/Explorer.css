@@ -1,0 +1,116 @@
+.explorer {
+  padding-block: clamp(var(--space-8), 9vw, var(--space-9));
+}
+
+.explorer__intro {
+  max-width: 46rem;
+  margin-bottom: var(--space-7);
+}
+
+.explorer__intro h1 {
+  margin-bottom: var(--space-4);
+}
+
+.explorer__intro p {
+  font-size: var(--text-md);
+  color: var(--color-text-muted);
+}
+
+.explorer__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-5);
+}
+
+.explorer__filter {
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  color: var(--color-text);
+  background: transparent;
+  border: var(--border-width) solid var(--color-border-strong);
+  border-radius: var(--radius-pill);
+  transition:
+    border-color var(--transition-fast),
+    background-color var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.explorer__filter:hover {
+  border-color: var(--color-border-gold);
+}
+
+.explorer__filter[aria-pressed="true"] {
+  color: var(--color-on-gold);
+  background: var(--color-gold);
+  border-color: var(--color-gold);
+}
+
+.destination {
+  padding-block: var(--space-7);
+  border-top: var(--border-width) solid var(--color-border);
+}
+
+.destination__header {
+  display: grid;
+  gap: var(--space-5);
+  align-items: center;
+  margin-bottom: var(--space-6);
+}
+
+.destination__header h2 {
+  margin-bottom: var(--space-3);
+  font-size: var(--text-2xl);
+}
+
+.destination__header p {
+  max-width: 40rem;
+  color: var(--color-text-muted);
+}
+
+.destination__figure {
+  margin: 0;
+}
+
+.destination__figure figcaption {
+  margin-top: var(--space-2);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+
+.destination__figure a {
+  color: var(--color-blue);
+}
+
+.destination__grid {
+  display: grid;
+  gap: var(--space-5);
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.destination__empty,
+.explorer__voyager {
+  color: var(--color-text-muted);
+}
+
+.explorer__voyager {
+  margin-top: var(--space-6);
+}
+
+@media (min-width: 40rem) {
+  .destination__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 64rem) {
+  .destination__header {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+    gap: var(--space-8);
+  }
+
+  .destination__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

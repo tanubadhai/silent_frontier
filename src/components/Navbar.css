@@ -1,0 +1,213 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-header);
+  background: var(--color-header);
+  backdrop-filter: blur(14px) saturate(1.2);
+  -webkit-backdrop-filter: blur(14px) saturate(1.2);
+  border-bottom: var(--border-width) solid var(--color-border);
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  min-height: var(--header-height);
+}
+
+/* ---- Brand --------------------------------------------------------------- */
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.brand:hover {
+  color: var(--color-text);
+}
+
+.brand__icon {
+  width: 1.625rem;
+  height: 1.625rem;
+  color: var(--color-gold);
+  stroke-width: 1.5;
+}
+
+.brand__name {
+  font-family: var(--font-heading);
+  font-size: var(--text-md);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--tracking-wide);
+}
+
+.brand__project {
+  display: none;
+  padding-left: var(--space-3);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  border-left: var(--border-width) solid var(--color-border-strong);
+}
+
+/* ---- Mobile menu toggle -------------------------------------------------- */
+.nav-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  color: var(--color-text);
+  background: transparent;
+  border: var(--border-width) solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  transition:
+    border-color var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.nav-toggle:hover {
+  color: var(--color-gold);
+  border-color: var(--color-border-gold);
+}
+
+.nav-toggle svg {
+  width: 1.375rem;
+  height: 1.375rem;
+}
+
+/* ---- Navigation (mobile: dropdown panel) --------------------------------- */
+.primary-nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  padding-block: var(--space-2) var(--space-4);
+  background: var(--color-overlay);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: var(--border-width) solid var(--color-border);
+  box-shadow: var(--shadow-soft);
+  opacity: 0;
+  visibility: hidden; /* also removes closed links from the tab order */
+  transform: translateY(-0.5rem);
+  transition:
+    opacity var(--transition-base),
+    transform var(--transition-base),
+    visibility 0s linear var(--duration-base);
+}
+
+.primary-nav.is-open {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition:
+    opacity var(--transition-base),
+    transform var(--transition-base),
+    visibility 0s linear 0s;
+}
+
+.primary-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  width: min(100% - 2 * var(--gutter), var(--container-max));
+  margin-inline: auto;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  font-weight: var(--weight-medium);
+  color: var(--color-text-muted);
+  text-decoration: none;
+  border-left: var(--border-width-strong) solid transparent;
+  border-radius: var(--radius-sm);
+  transition:
+    color var(--transition-fast),
+    background-color var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.nav-link svg {
+  width: 1.125rem;
+  height: 1.125rem;
+  flex-shrink: 0;
+}
+
+.nav-link:hover {
+  color: var(--color-text);
+}
+
+.nav-link[aria-current="page"] {
+  color: var(--color-gold);
+  background: var(--color-gold-wash);
+  border-left-color: var(--color-gold);
+}
+
+/* ---- Navigation (desktop: inline links) ---------------------------------- */
+@media (min-width: 52rem) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .primary-nav {
+    position: static;
+    padding: 0;
+    background: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    border: 0;
+    box-shadow: none;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    transition: none;
+  }
+
+  .primary-nav ul {
+    flex-direction: row;
+    gap: var(--space-1);
+    width: auto;
+    margin: 0;
+  }
+
+  .nav-link {
+    position: relative;
+    padding: var(--space-3) var(--space-4);
+    background: none;
+    border-left: 0;
+    border-radius: var(--radius-sm);
+  }
+
+  /* Active page is marked with a gold underline. */
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: var(--space-4);
+    right: var(--space-4);
+    bottom: var(--space-1);
+    height: var(--border-width-strong);
+    background: var(--color-gold);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform var(--transition-base);
+  }
+
+  .nav-link[aria-current="page"] {
+    background: none;
+  }
+
+  .nav-link[aria-current="page"]::after {
+    transform: scaleX(1);
+  }
+}
+
+@media (min-width: 64rem) {
+  .brand__project {
+    display: inline;
+  }
+}

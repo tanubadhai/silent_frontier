@@ -1,0 +1,132 @@
+/* ==========================================================================
+   STARSTUFF — The Silent Frontier
+   Design tokens. Every colour, size and duration used in the app lives here.
+
+   Palette: deep space with purple nebulae. Gold is the action colour,
+   blue carries scientific information, yellow is reserved for tiny
+   highlights (a few stars, small status dots).
+   ========================================================================== */
+
+:root {
+  color-scheme: dark;
+
+  /* ---- Core palette ---------------------------------------------------- */
+  --color-bg: #100b1b; /* near-black purple */
+  --color-surface: #1a1230;
+  --color-purple: #4d2b8c; /* deep purple: atmosphere, gradients */
+  --color-violet: #85409d; /* secondary violet: glow, accents */
+  --color-gold: #eea727; /* solar gold: buttons, active states */
+  --color-yellow: #ffef5f; /* starlight: stars and tiny highlights only */
+  --color-blue: #8fb9d9; /* space blue: science, focus, contrast */
+  --color-text: #e9e5db;
+  --color-text-muted: #9ba9bb;
+
+  /* ---- RGB channels, for translucent layers: rgb(var(--rgb-x) / 0.3) --- */
+  --rgb-bg: 16 11 27;
+  --rgb-surface: 26 18 48;
+  --rgb-purple: 77 43 140;
+  --rgb-violet: 133 64 157;
+  --rgb-violet-soft: 181 138 208; /* lightened violet for lines and rims */
+  --rgb-gold: 238 167 39;
+  --rgb-yellow: 255 239 95;
+  --rgb-blue: 143 185 217;
+
+  /* ---- Derived tones --------------------------------------------------- */
+  --color-surface-raised: #241a40;
+  --color-violet-soft: rgb(var(--rgb-violet-soft));
+  --color-gold-bright: #f6bf55;
+  --color-on-gold: #100b1b;
+  --color-gold-wash: rgb(var(--rgb-gold) / 0.1);
+  --color-border: rgb(var(--rgb-violet-soft) / 0.18);
+  --color-border-strong: rgb(var(--rgb-violet-soft) / 0.38);
+  --color-border-gold: rgb(var(--rgb-gold) / 0.5);
+  --color-header: rgb(var(--rgb-bg) / 0.72);
+  --color-overlay: rgb(var(--rgb-bg) / 0.95);
+  --color-focus: var(--color-blue);
+
+  /* ---- Gradients ------------------------------------------------------- */
+  /* Translucent on purpose, so the starfield shows through every panel. */
+  --gradient-panel: linear-gradient(
+    135deg,
+    rgb(var(--rgb-purple) / 0.3),
+    rgb(var(--rgb-surface) / 0.5)
+  );
+  --gradient-card: linear-gradient(
+    160deg,
+    rgb(var(--rgb-surface) / 0.7),
+    rgb(var(--rgb-bg) / 0.55)
+  );
+
+  /* ---- Typography ------------------------------------------------------ */
+  --font-heading: "Space Grotesk", "Inter", system-ui, -apple-system,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+
+  --text-xs: 0.8125rem;
+  --text-sm: 0.9375rem;
+  --text-base: 1rem;
+  --text-md: 1.125rem;
+  --text-lg: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  --text-xl: clamp(1.5rem, 1.2rem + 1.2vw, 2rem);
+  --text-2xl: clamp(2rem, 1.4rem + 2.4vw, 3rem);
+  --text-3xl: clamp(2.5rem, 1.5rem + 4vw, 4.5rem);
+  --text-hero: clamp(3.25rem, 1rem + 9.5vw, 9rem);
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  --leading-tight: 1.1;
+  --leading-snug: 1.3;
+  --leading-normal: 1.6;
+
+  --tracking-tight: -0.02em;
+  --tracking-wide: 0.14em;
+
+  /* ---- Spacing --------------------------------------------------------- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+  --space-10: 8rem;
+
+  /* ---- Layout ---------------------------------------------------------- */
+  --gutter: clamp(1rem, 0.5rem + 2.5vw, 2rem);
+  --container-max: 75rem;
+  --measure: 62ch; /* comfortable line length for reading */
+  --header-height: 4.25rem;
+
+  /* ---- Borders and radii ----------------------------------------------- */
+  --border-width: 1px;
+  --border-width-strong: 2px;
+  --radius-sm: 0.375rem;
+  --radius-md: 0.625rem;
+  --radius-lg: 1rem;
+  --radius-pill: 999px;
+
+  /* ---- Shadows --------------------------------------------------------- */
+  --shadow-soft: 0 12px 40px rgb(0 0 0 / 0.4);
+  --glow-gold: 0 0 28px rgb(var(--rgb-gold) / 0.35);
+  --glow-violet: 0 0 60px rgb(var(--rgb-violet) / 0.3);
+
+  /* ---- Motion ---------------------------------------------------------- */
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
+  --duration-slow: 500ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --transition-fast: var(--duration-fast) var(--ease-out);
+  --transition-base: var(--duration-base) var(--ease-out);
+  --transition-slow: var(--duration-slow) var(--ease-out);
+
+  /* ---- Layering -------------------------------------------------------- */
+  --z-starfield: -1;
+  --z-header: 50;
+  --z-skip-link: 100;
+}
