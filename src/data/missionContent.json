@@ -5,8 +5,8 @@
     "chapters": {
       "beginning": {
         "paragraphs": [
-          "In the late 1970s the four giant planets lined up in a way that happens only about once every 175 years, so a single spacecraft could swing from one to the next, borrowing speed from each planet’s gravity. NASA built two spacecraft to use that alignment. Voyager 2 left Earth on 20 August 1977. Voyager 1 followed on 5 September 1977 on a faster, shorter path to Jupiter and Saturn.",
-          "Voyager 1 rose from Cape Canaveral, Florida, on a Titan-Centaur rocket, with a launch mass of 723 kg. Its stated objectives were close-up studies of Jupiter, Saturn, their rings and larger moons, and then an exploration of the outermost edge of the Sun’s domain, the heliosphere. The planned mission was roughly five years long."
+          "The invitation came from the planets themselves. In the late 1970s Jupiter, Saturn, Uranus and Neptune drifted into an arrangement that recurs only about once every 175 years, one that let a single spacecraft fall from world to world, borrowing a little of each planet’s orbital energy to reach the next. Engineers at the Jet Propulsion Laboratory had one chance in a human lifetime to use it, so they built two spacecraft.",
+          "Voyager 2 left Earth on 20 August 1977. Voyager 1 followed on 5 September 1977 aboard a Titan-Centaur rocket from Cape Canaveral, 723 kg of hardware on a faster, shorter path to Jupiter and Saturn, which is why the later launch carries the lower number. Its stated objectives were close-up studies of both giant planets, their rings and larger moons, and then an exploration of the outer edge of the Sun’s domain, the heliosphere. The plan was roughly five years of work. Nothing in that plan described what the spacecraft would become."
         ],
         "facts": [
           {
@@ -32,8 +32,9 @@
       },
       "journey": {
         "paragraphs": [
-          "The route was a sequence of gravity assists. At Jupiter, Voyager 1 passed through a system that had only ever been seen from Earth as small discs. At Saturn, a close pass of the moon Titan bent its path north, out of the plane of the planets, which ended its planetary tour and sent it toward interstellar space.",
-          "Its last act as a camera platform came in 1990. Voyager 1 turned around, photographed the planets it had left behind, and then had its cameras switched off to save power."
+          "Jupiter came first, and it changed what a planet could be. Until then the giant’s moons had been small discs in telescopes. At closest approach on 5 March 1979, Voyager 1 resolved them as worlds. Three days later a navigation frame of Io, taken to help steer the spacecraft, showed a bright curved cloud rising from the edge of the moon. JPL engineer Linda Morabito noticed it the following day, and it was an eruption plume. Infrared data from the IRIS instrument showed several regions hundreds of degrees Fahrenheit warmer than their surroundings, and the lava lake at Loki about 150 degrees Celsius warmer than its neighbourhood. This was the first active volcanism ever observed beyond Earth. The likely heat source, the squeezing of Io by Jupiter’s gravity and by neighbouring moons, is a scientific interpretation, not something the cameras saw.",
+          "Saturn followed in November 1980, and with it a choice. Voyager 1 flew close to Titan, whose thick atmosphere hid its surface from the cameras. That gravitational encounter bent the spacecraft’s path north, out of the plane of the planets. It was the price of looking at Titan: the same deflection ended the planetary tour, leaving Uranus and Neptune to Voyager 2. From that moment Voyager 1 was no longer visiting planets. It was leaving.",
+          "Its last act as a camera platform came on 14 February 1990. From about 6 billion km away, Voyager 1 turned back and photographed the planets it had passed, a mosaic known as the Family Portrait. One frame caught Earth as a point of light less than a pixel across, the Pale Blue Dot. Then the cameras were switched off to save power, and the spacecraft went dark to everything except the space around it."
         ],
         "timeline": [
           {
@@ -98,7 +99,9 @@
       },
       "science": {
         "paragraphs": [
-          "Voyager 1 carried ten science instruments, or eleven investigations if radio science is counted separately. Most were designed for the planets. A few turned out to be exactly what was needed for the next frontier."
+          "Voyager 1 carried ten science instruments, or eleven investigations if radio science is counted separately. Almost all were designed for planets. A few turned out to be exactly what the next frontier needed.",
+          "At Jupiter and Saturn the work was done by the cameras, by IRIS, which read temperatures and composition from infrared light, and by the particle and magnetic instruments. Decades later, the frontier belonged to the instruments that sense the space around the spacecraft. Around 25 August 2012 the particle instruments recorded the count of solar particles falling and the count of galactic cosmic rays rising. That was a direct observation, and it marked the date NASA assigns to the heliopause crossing. It was not yet proof of interstellar space.",
+          "The proof came from the Plasma Wave Subsystem. Its two long antennas listen to the natural ringing of the plasma around the spacecraft, whose pitch rises with density. After large solar outbursts sent shocks through the gas, the ringing revealed plasma more than 40 times denser than just inside the boundary, with a pitch of a few kilohertz. Those measurements were announced in 2013. The August 2012 date for the crossing itself was inferred by extrapolating back from them. The magnetometer added a surprise: the direction of the magnetic field did not rotate across the boundary as many models had expected. Where the heliosphere’s whole edge lies, and what shape it has, still depends on combining Voyager’s tracks with models. Only the magnetometer and the plasma wave subsystem were still operating as of April 2026."
         ],
         "instruments": [
           {
@@ -143,7 +146,9 @@
       },
       "hardware": {
         "paragraphs": [
-          "Voyager 1 is a single machine, but it is made of parts with very different jobs and very different fates."
+          "Voyager 1 is a single machine, but its parts have very different jobs and very different fates.",
+          "A ten-sided electronics bus carries a 3.7-metre dish pointed permanently at Earth, three radioisotope thermoelectric generators that turn the heat of decaying plutonium into electricity, and instruments mounted on booms. The magnetometer sits on a boom roughly 13 metres long so that it can measure the interstellar field away from the spacecraft’s own magnetic noise. The generators lose about 4 watts of power every year, which is why instruments are being switched off one by one. Each shutdown is a trade: a little science given up to keep the rest alive.",
+          "Bolted to the bus is something that has nothing to do with science. The Golden Record is a 12-inch gold-plated copper phonograph record, with a cover that shows how to play it. It carries 115 images, sounds of Earth, about 90 minutes of music from many cultures and greetings in 55 languages. A committee chaired by Carl Sagan chose its contents as a message for any future finder. It is not an instrument, and whether anything will ever play it is unknowable."
         ],
         "entities": [
           {
@@ -167,8 +172,8 @@
       },
       "afterlife": {
         "paragraphs": [
-          "Voyager 1 does not have an afterlife yet. It is still transmitting, so this chapter is a status report, not an obituary. NASA lists no last-contact date and no end-of-mission date, and this archive does not invent one.",
-          "NASA has said that without the September 2026 power swap another science instrument would have had to be switched off as early as summer 2027. Eventually the generators will not be able to run the transmitter. At that point Voyager 1 will keep coasting silently. NASA has said that in about 40,000 years it will pass within about 1.7 light-years of the star Gliese 445."
+          "Voyager 1 does not have an afterlife yet. It is still transmitting, so this chapter is a status report, not an obituary. NASA lists no last-contact date and no end-of-mission date, and this archive does not invent one. A brief communications pause beginning on 20 October 2026 lasted about 48 hours and ended with contact restored.",
+          "The numbers are closing in. Commands sent to the spacecraft are approaching a full day of travel time each way, so a question asked of Voyager 1 is answered two days later. NASA has said that without the September 2026 power swap another science instrument would have had to be switched off as early as summer 2027. Eventually the generators will not be able to run the transmitter, and the spacecraft will keep coasting in silence. NASA projects that in about 40,000 years it will pass within about 1.7 light-years of the star Gliese 445, a figure that depends on how both objects move. The spacecraft and the Golden Record travel together."
         ],
         "status": [
           {
@@ -200,8 +205,8 @@
       },
       "legacy": {
         "paragraphs": [
-          "Voyager 1 changed what we think the outer Solar System is: not a set of quiet, cratered moons but worlds with volcanoes, thick atmospheres and rings. Then it changed what we think the edge of the Sun’s domain is, by crossing it.",
-          "It also changed how people see the Earth. The Pale Blue Dot photograph inspired the title of Carl Sagan’s 1994 book, and the Golden Record made a spacecraft into a message. As engineering, Voyager 1 is a lesson in what careful design, patient operations and nuclear power can do: commands now take 24 hours to arrive and a reply takes 24 more."
+          "Voyager 1 changed what we think the outer Solar System is: not a set of quiet, cratered moons but worlds with volcanoes, thick atmospheres and rings. Then it changed what we think the edge of the Sun’s domain is, by crossing it and measuring what lay on the other side.",
+          "It also changed how people see the Earth. The Pale Blue Dot photograph inspired the title of Carl Sagan’s 1994 book, and the Golden Record turned a spacecraft into a message. On 17 February 1998 Voyager 1 overtook Pioneer 10 to become the most distant human-made object, the earlier pathfinder passed by its heir. As engineering, Voyager 1 is a lesson in what careful design, patient operations and nuclear power can do: repairs made by commands that take a day to arrive, on a machine launched in 1977."
         ]
       }
     },
@@ -347,8 +352,8 @@
     "chapters": {
       "beginning": {
         "paragraphs": [
-          "The first astronauts on the Moon carried a simple experiment package that worked only for a short time. Apollo 11’s early package held a seismometer and a laser reflector. The scientists who wanted to understand the Moon needed something that would keep running after the crew left, and that is what ALSEP was.",
-          "ALSEP stood for Apollo Lunar Surface Experiments Package. Each one was a set of instruments linked by cable to a central station that supplied power and radioed the data to Earth. Five stations were set up, by the crews of Apollo 12, 14, 15, 16 and 17. The goals in the mission data were to monitor the lunar environment continuously after the astronauts left, and to measure seismic activity, heat flow, the solar wind and the lunar atmosphere."
+          "The first astronauts on the Moon carried a small, hurried science package. Apollo 11’s EASEP, the Early Apollo Scientific Experiments Package, was built to run for a short time and be left behind. Scientists wanted much more: instruments that would keep listening for years, long after the crews had gone home.",
+          "That was ALSEP, the Apollo Lunar Surface Experiments Package. It began with Apollo 12 and was deployed again by Apollo 14, 15, 16 and 17, five stations in all. Each was a set of instruments wired to a central station and powered by a SNAP-27 radioisotope generator, so that it could run through the lunar night. Across the stations the experiments included passive and active seismology, heat-flow measurement, solar wind, magnetic field and charged-particle detectors, and measurements of the Moon’s very thin gas. The laser retroreflectors that Apollo crews also left on the surface were separate experiments, not part of ALSEP."
         ],
         "facts": [
           {
@@ -374,7 +379,8 @@
       },
       "journey": {
         "paragraphs": [
-          "ALSEP did not travel on its own. It rode to the Moon inside each lunar module, and astronauts carried it out on the surface, on foot or with the rover on later missions, and unpacked it. After they left, the stations kept sending data to Earth until the shutdown."
+          "ALSEP did not travel. It was carried to the surface in the lunar module, unpacked by astronauts, carried a short distance from the landing site and set up, on one site after another between November 1969 and December 1972. Its journey was in time. After the crews left, the stations kept sending data to Earth every day, listening to a world that had never been heard.",
+          "Those years brought a surprise: a place thought to be dead was not silent. The stations recorded quakes, impacts, shifts in temperature and the slow flow of heat from the interior. Then the money ran out. On 30 September 1977 NASA commanded the remaining active stations off, a decision driven by funding, not by failure. The stations were switched off while they were still returning data."
         ],
         "timeline": [
           {
@@ -409,7 +415,9 @@
       },
       "science": {
         "paragraphs": [
-          "No two stations carried exactly the same instruments, and many were run by different principal investigators. Together they made a seismic network, a magnetic survey, a particle monitor and a heat-flow probe."
+          "The great question was the simplest: what is the Moon like inside? Was it molten, solid all the way through, or layered like the Earth? No one had ever put a seismometer on another world and listened.",
+          "The Passive Seismic Experiment answered it. Like a weight hanging from a spring, it detected the difference between the moving ground and a mass that lagged behind, sensitive to motion of the order of a nanometre. It recorded several kinds of event: deep moonquakes far below the surface that recur with the lunar tides, shallow moonquakes, thermal quakes as the surface warms and cools, and meteoroid impacts. Scientists also made their own signals by crashing spent rocket stages and lunar-module ascent stages onto the Moon. The seismometers recorded signals lasting far longer than similar impacts do on Earth, which spoke of a dry, fractured upper layer.",
+          "By timing waves between stations, researchers inferred a Moon with a crust, a mantle and a core, much as the Earth has. Those layer boundaries are interpretations drawn from the timing data, and the size and state of the core remain less certain than the upper layers. The Apollo 15 and 17 heat probes measured heat flowing out of the interior, about 21 and 16 milliwatts per square metre, and the atmospheric instruments found a gas thin enough to be closer to an exosphere than an atmosphere. How the Moon formed and cooled depends on how all these layers are read."
         ],
         "instruments": [
           {
@@ -444,7 +452,8 @@
       },
       "hardware": {
         "paragraphs": [
-          "The mission data records ALSEP as one entry: multiple central stations and instruments left on the Moon at the Apollo 12, 14, 15, 16 and 17 landing sites, all inactive. It helps to know what each part was."
+          "Each ALSEP station was less a single instrument than a small outpost: a central station that received commands and sent data to Earth, a power source, and a scatter of experiments joined to it by cables. The mission data records all of it as inactive, and it helps to know what each part was.",
+          "The electricity came from a SNAP-27 radioisotope generator, which turned the heat of decaying plutonium into power. That is what let the seismometers keep their electronics warm through lunar nights colder than minus 150 degrees Celsius. One more thing sits at these sites that is not ALSEP at all: the laser retroreflectors. They are separate, passive experiments, and some are still in use."
         ],
         "entities": [
           {
@@ -480,7 +489,8 @@
       },
       "afterlife": {
         "paragraphs": [
-          "ALSEP did not fail. It was switched off. On 30 September 1977, because of budget cuts, NASA commanded all the remaining active stations off at the same time. That date is both the last contact and the end date in the mission record."
+          "ALSEP did not end with a failure. NASA commanded the remaining active stations off on 30 September 1977, so the formal end of the mission is a decision and a date, not a loss of contact. Each of the five stations remains where its crew placed it, inactive, on the lunar surface.",
+          "The data kept their value. They are archived, and researchers have been going back to them ever since. A re-study published in 2019 linked some shallow moonquakes to young faults near the Apollo 17 site, work that depended on records gathered half a century earlier."
         ],
         "status": [
           {
@@ -504,8 +514,8 @@
       },
       "legacy": {
         "paragraphs": [
-          "ALSEP was the first permanent scientific monitoring network on another world. Its seismic data are still being re-analysed with methods the Apollo scientists did not have, and the questions they raised about the Moon’s interior are still alive.",
-          "It also showed what long-term stations can do. Placing a seismometer on Mars decades later, as InSight did, followed the same idea: a single station on a planet reveals what is happening far beneath its surface."
+          "ALSEP gave us the first look inside another world. Later gravity maps and modern analysis methods keep refining the layer models it made possible, and its moonquake catalogue is still used as a reference.",
+          "It also left lessons in engineering: long-lived radioisotope power, remote command of instruments on another world, and instruments built to survive extreme swings of temperature. Its method of timing seismic waves across a network is the same one InSight later used on Mars, a shared technique, not a direct descendant."
         ]
       }
     },
@@ -634,8 +644,8 @@
     "chapters": {
       "beginning": {
         "paragraphs": [
-          "Before anyone could land a crew on the Moon, NASA needed to know what the surface was like. Some feared a deep layer of fine dust that could swallow a lander. The Surveyor programme sent robotic landers to find out, and Surveyor 3 was one of them.",
-          "It was launched on 17 April 1967 and landed in Oceanus Procellarum, the Ocean of Storms. It had three objectives in the mission data: make a soft landing to prove the technology for Apollo, take television pictures of the surface, and test lunar soil mechanics with a sampling scoop. Its landed mass was 296 kg."
+          "In the mid-1960s a question hung over the Apollo programme that no calculation could settle: if the Moon was covered in deep, loose dust, would a heavy lander sink into it? Earlier landers had hinted that the surface was firm, but engineers wanted measurements of how strong the soil was in different places, because the answer decided whether astronauts could land.",
+          "Surveyor 3 was built to measure it. It launched in 1967 with a landed mass of 296 kg, carrying a television camera and a soil mechanics surface sampler, a scoop on a folding arm. It was one of a series of robot landers sent ahead of the astronauts."
         ],
         "facts": [
           {
@@ -661,7 +671,9 @@
       },
       "journey": {
         "paragraphs": [
-          "Surveyor 3 landed on the inside slope of a small crater. It dug trenches with its scoop, photographed them and the surrounding terrain, and sent data until the first lunar night closed in. Contact was lost on 4 May 1967. Then the story paused for two and a half years."
+          "Surveyor 3 touched down in Oceanus Procellarum at 00:04 UTC on 20 April 1967, which was the evening of 19 April in California. The landing was not smooth: it bounced before settling on the slope of a crater. Then it began to work.",
+          "Over two weeks the camera sent back more than 6,300 television pictures, and operators on Earth drove the scoop into the soil. Then the Sun set. Surveyor 3 operated until the first lunar night, and did not recover when day returned. Contact was last made on 4 May 1967.",
+          "That should have been the end. Instead, two and a half years later, humans arrived at its door."
         ],
         "timeline": [
           {
@@ -701,7 +713,9 @@
       },
       "science": {
         "paragraphs": [
-          "Surveyor 3 carried two main tools for learning about the surface, and the whole point was soil. It did not carry a chemical analyser; later Surveyors did."
+          "The camera did two jobs. It surveyed the landscape, and it watched the scoop, so that every picture of a trench was also a measurement. Because operators knew the force being applied, the pictures became data: how deep the scoop went, how steeply the walls stayed up, whether the soil crumbled.",
+          "The sampler dug trenches up to 17.5 cm deep, and the photographs showed walls that held their shape. The soil behaved as a granular material with some cohesion, firm enough to support the lander. That is an observation. The conclusion that a larger crewed lander would also stand on it is an engineering inference drawn from those measurements. The sampler was a tool for digging and manipulating soil, not a chemical analyser: it measured how the soil behaved, not what it was made of.",
+          "The answer mattered. The surface was strong enough, and one of the biggest engineering worries of Apollo was answered by a scoop on an arm."
         ],
         "instruments": [
           {
@@ -719,7 +733,8 @@
       },
       "hardware": {
         "paragraphs": [
-          "Surveyor 3 is the rare spacecraft whose parts were split between two worlds."
+          "Surveyor 3 is the rare spacecraft whose parts were split between two worlds. A three-legged lander carried a television camera on top and a soil scoop on a folding arm, powered by solar panels and a battery, which is why the lunar night ended its work.",
+          "On 20 November 1969 Apollo 12’s crew cut away the camera, the scoop, sections of tubing and a piece of cable, about 10 kg in all, and carried them home. The chassis stayed where it landed."
         ],
         "entities": [
           {
@@ -748,7 +763,8 @@
       },
       "afterlife": {
         "paragraphs": [
-          "Surveyor 3 was a success that ended without a ceremony: its signal simply stopped. Its second life began in 1969 when astronauts chose to land close to it as a test of precision."
+          "Surveyor 3 stopped talking on 4 May 1967 and is inactive. But its story did not stop there. On 20 November 1969 Apollo 12 commander Pete Conrad walked into the crater where it sat, stood beside it and cut off its television camera. Apollo 12’s lunar module stood about 180 metres away. No other robotic probe on another world has been visited by humans.",
+          "The parts returned to Earth on 24 November 1969 after about 31 months on the Moon, a rare look at how materials behave after long exposure to the lunar surface. The rest of Surveyor 3 remains where it landed."
         ],
         "status": [
           {
@@ -772,8 +788,8 @@
       },
       "legacy": {
         "paragraphs": [
-          "Surveyor 3 helped give NASA confidence that a lunar module could land safely, and remains the only robotic probe visited by humans on another world. The Apollo 12 landing near it also showed that a crewed spacecraft could land within a few hundred metres of a chosen target.",
-          "The returned parts gave scientists a chance to examine hardware that had been exposed to the lunar surface for about 31 months, a study that is hard to arrange any other way."
+          "Surveyor 3 gave Apollo a ground-truth test: the astronauts landed with a clearer picture of the surface they were landing on. And the idea of a scoop on an arm, watched by a camera, became a standard way to study soil on other worlds, an approach later Mars landers used in similar ways.",
+          "It also left something rarer than a result. It showed that a spacecraft could be an object of study twice: once by its own instruments, and once by the people who came to bring it home."
         ]
       }
     },
@@ -894,8 +910,8 @@
     "chapters": {
       "beginning": {
         "paragraphs": [
-          "In the 1990s NASA wanted to show that Mars could be reached quickly and cheaply. Mars Pathfinder was the second mission in the low-cost Discovery programme. It had to land safely with a cocoon of airbags, with no orbit around Mars first, and then release a small rover that could drive around the lander.",
-          "Sojourner weighed 10.5 kg once deployed. It was launched on 4 December 1996. Its goals were to demonstrate cheap delivery to the surface and mobility on Mars, and to characterise the rocks and soil at the landing site in Ares Vallis, an ancient flood channel."
+          "By the mid-1990s Mars was a world mapped from orbit and sampled only by meteorites and by landers that could examine what lay within reach of their arms. Nobody had ever put a mobile instrument on the surface to choose and test many rocks. NASA’s answer was a mission built to be cheap, fast and bold: Mars Pathfinder, a lander carrying a rover the size of a microwave oven.",
+          "Pathfinder landed on 4 July 1997 in Ares Vallis, a channel carved by ancient floods. The lander was renamed the Carl Sagan Memorial Station. The rover, Sojourner, was named after Sojourner Truth, and at 10.5 kg it was the first successful wheeled rover on another planet. Its planned lifetime was about seven days."
         ],
         "facts": [
           {
@@ -921,7 +937,8 @@
       },
       "journey": {
         "paragraphs": [
-          "Sojourner never travelled far, but every metre was a first. The rover rolled down the lander’s rear ramp on 5 July 1997, the day after landing, and then worked its way from rock to rock, always staying within reach of the lander that relayed its signals."
+          "The landing was the first surprise. Instead of firing rockets all the way down, Pathfinder dropped to the surface inside a cluster of airbags, bouncing across the Martian plain before it came to rest. It worked. The petals of the lander opened and the rover rolled down a ramp onto Mars.",
+          "Then the seven days became 83 sols, the Martian days the mission counted. Sojourner crept around the lander, which relayed all of its data to Earth, and approached rock after rock. The last data from Pathfinder arrived on 27 September 1997. NASA ended the mission on 10 March 1998 after five months of recovery attempts."
         ],
         "timeline": [
           {
@@ -966,7 +983,9 @@
       },
       "science": {
         "paragraphs": [
-          "Sojourner was both an experiment and an instrument carrier. Everything it did relied on the lander, which acted as radio relay and as the camera that photographed the rover at work."
+          "Sojourner carried one instrument built to answer the question of what the rocks were made of: the Alpha Proton X-ray Spectrometer, APXS. It held a small radioactive source that fired alpha particles at a target. Atoms in the rock responded with X-rays and other particles whose energies identify the elements. Because Sojourner could press the instrument against a rock or soil patch, the reading was taken of the exact target scientists chose. It was also sensitive to dust or coatings on the surface of a rock.",
+          "The results were not what a uniform Mars would have predicted. The rock Barnacle Bill had a composition the team called andesitic, which might mean a true volcanic andesite or a physical mixture of particles; the original caption left both possibilities open. The rock Yogi had a lower quartz content and looked more primitive, more like common basalts on Earth. Pebbles and cobbles in the surrounding terrain were rounded, which points to transport by flowing water. That is an interpretation of what the shapes mean. When the rover’s wheels dug in during a turn, they exposed bright white material below the surface.",
+          "Taken together, the observations suggested a crust more varied than expected, in a landing site with signs of flood deposits."
         ],
         "instruments": [
           {
@@ -996,7 +1015,8 @@
       },
       "hardware": {
         "paragraphs": [
-          "Two machines remain together at the landing site. Both are recorded in the mission data as inactive at 19.33° N, 33.55° W in Ares Vallis."
+          "Two machines remain together at the landing site, both recorded in the mission data as inactive at 19.33° N, 33.55° W in Ares Vallis. They depended on each other: the lander carried the mast camera and weather station and relayed every message the rover sent, and the rover carried the APXS to the rocks.",
+          "That dependence explains the ending. When communications with the lander were lost on 27 September 1997, Sojourner may have kept working on its own for a while, but with no relay nobody could hear it."
         ],
         "entities": [
           {
@@ -1018,7 +1038,8 @@
       },
       "afterlife": {
         "paragraphs": [
-          "Sojourner’s story has three different dates. The last data transmission from the lander arrived on 27 September 1997. NASA tried for five months to restore full communications. The mission was officially terminated on 10 March 1998. The mission data says Sojourner likely kept working on its own until its batteries ran out; there is no confirmation of that."
+          "Pathfinder did not end in a failure that anyone could see. Communications with the lander were lost on 27 September 1997, and for five months engineers tried to recover them. NASA officially ended the mission on 10 March 1998. The lander and rover are both inactive on the surface of Mars, near the channel where they landed.",
+          "The distinction matters: the last contact and the formal end of the mission are two different dates, five months apart."
         ],
         "status": [
           {
@@ -1046,8 +1067,8 @@
       },
       "legacy": {
         "paragraphs": [
-          "Sojourner showed that mobile science on another planet worked. Its successors, Spirit, Opportunity, Curiosity and Perseverance, followed the same recipe on a larger scale. The Mars Exploration Rovers also reused the airbag landing method.",
-          "Pathfinder’s results mattered too: rounded pebbles and cobbles pointed to ancient floods, and the rock chemistry showed how varied the crust is."
+          "Sojourner proved that a rover could drive on Mars under a long time delay, with hazard detection, and at low cost. The APXS design flew again: later Mars rovers carried improved versions, and landers have used the same pattern of roll up and touch the rock ever since.",
+          "Its airbag landing approach also influenced later Mars rover landing systems, and its successors included the twin rovers Spirit and Opportunity. The documented link between Sojourner and Opportunity is one of lineage in rover design and mission goals."
         ]
       }
     },
@@ -1178,8 +1199,8 @@
     "chapters": {
       "beginning": {
         "paragraphs": [
-          "Opportunity was the second of two twin Mars Exploration Rovers, Spirit and Opportunity, launched in the summer of 2003. NASA wanted rovers that could read the planet’s past: not just look at rocks but test them for signs of water. Opportunity (MER-B) was sent to Meridiani Planum, a flat plain where orbiting instruments had detected the mineral hematite, which on Earth often forms in the presence of water.",
-          "The rover weighed 185 kg and launched on 7 July 2003. Its mission, as recorded in the mission data, was to find out the aqueous, climatic and geologic history of a site where conditions may have favoured the preservation of evidence of possible past life, and to examine rocks and soils for clues to past water. Its primary mission was three months long."
+          "From orbit, Meridiani Planum looked like a place where water might once have been. Instruments circling Mars had detected hematite there, an iron mineral that often forms in water. But hematite can form in other ways too, so no one knew whether water had really been there, what it was like, or whether it had been abundant or merely a passing film. The only way to find out was to land.",
+          "Opportunity, one of two twin rovers, landed on 25 January 2004 UTC, which was 24 January in California, inside a small crater called Eagle Crater. Its prime mission was about 90 sols, roughly three months. It would last more than 14 years."
         ],
         "facts": [
           {
@@ -1205,7 +1226,8 @@
       },
       "journey": {
         "paragraphs": [
-          "Opportunity landed inside a small crater called Eagle and found its first big result almost at once. From there it drove from crater to crater, spent most of 2004 in Endurance Crater, then made a long trek of more than five kilometres south to Victoria Crater. Finally it reached the rim of Endeavour Crater, where it studied older rocks than anywhere else it had been."
+          "The landing was almost too good. Opportunity came to rest inside a crater with an outcrop of layered rock in plain view, a geologist’s gift. Within weeks it had found the first evidence that the site had been wet.",
+          "Then it kept going. After Eagle Crater came Endurance Crater and a long trek of about 5 km to Victoria Crater, and later Endeavour Crater, a far larger crater. Over the years the rover drove 28.06 miles, an off-world record. It survived Martian winters and recovered from dust."
         ],
         "timeline": [
           {
@@ -1255,7 +1277,10 @@
       },
       "science": {
         "paragraphs": [
-          "Opportunity was a mobile geology laboratory. Its cameras selected targets, its arm brought instruments to them, and a grinding tool cleaned off dust and weathered surfaces first."
+          "Mars is covered in dust and its rocks are weathered, so the outside of a rock does not reveal what it is made of. The Rock Abrasion Tool ground into a rock with a spinning wheel, then brushed the powder away so the other instruments could read fresh material. One hole, on a rock called Pilbara, was 4.5 cm wide and just 7.2 mm deep, and cut straight through one of the spherules so that its inside could be seen.",
+          "The rocks at the landing site held small round spherules that reminded researchers of berries in a muffin, nicknamed blueberries. They were analysed as hematite-rich concretions: mineral grains that grow inside rock soaked with water. Opportunity’s Mössbauer spectrometer, which identifies iron minerals, found jarosite and other minerals that form in acidic water, so the groundwater at this site was acidic and salty. Those are the observations; that groundwater formed the concretions is the interpretation.",
+          "Years later, at Endeavour Crater, Opportunity found veins of gypsum deposited by water flowing through underground fractures, and evidence of water that was more neutral in acidity. At Kirkwood, spherules that looked just like the blueberries turned out not to be iron-rich, and some had concentric internal layers. Science did not repeat itself; it found a new puzzle.",
+          "What Opportunity established is that liquid water once saturated the surface of Meridiani Planum long enough to leave deposits, and that some of that water was acidic and some more neutral. That is evidence of ancient aqueous environments and of conditions that might once have been habitable. It is not evidence of life."
         ],
         "instruments": [
           {
@@ -1295,7 +1320,8 @@
       },
       "hardware": {
         "paragraphs": [
-          "Opportunity itself is one object, left where it stopped. Around Mars lies other hardware from its journey."
+          "Opportunity itself is one object, left where it stopped. It was a solar-powered, six-wheeled rover with cameras on a mast and an arm that carried a microscope, spectrometers and the Rock Abrasion Tool. Its solar panels were its lifeline: every winter, dust and low sun threatened its power, and in the end it was dust that ended it.",
+          "Around Mars lies other hardware from its journey, including the landing platform in Eagle Crater."
         ],
         "entities": [
           {
@@ -1317,7 +1343,8 @@
       },
       "afterlife": {
         "paragraphs": [
-          "Opportunity’s end has two dates: the last time it spoke and the day NASA gave up listening. The storm that began in mid-2018 covered the planet in dust, and the rover’s solar panels could not make enough power. Its last communication was on 10 June 2018. Engineers then sent more than a thousand recovery commands over the following months, and declared the mission complete on 13 February 2019."
+          "A planet-wide dust storm in 2018 blocked sunlight from reaching Opportunity’s solar panels. Its last signal arrived on 10 June 2018. Over the following months NASA sent more than 1,000 recovery commands, listening for any answer.",
+          "None came, and NASA declared the mission complete on 13 February 2019. The last signal and the formal end are eight months apart. Opportunity is inactive, where it stopped, in Perseverance Valley on the rim of Endeavour Crater."
         ],
         "status": [
           {
@@ -1345,8 +1372,8 @@
       },
       "legacy": {
         "paragraphs": [
-          "Opportunity was designed for 90 days and explored Mars for more than 14 years, driving an off-world record of 28.06 miles (about 45 km). Its observations rewrote the history of water on Mars, showing that ancient water in some places was salty and acidic, and in others, by the time it reached Endeavour, more benign.",
-          "It left a method behind: choose a site by the minerals, then test by touching. Later rovers use the same approach."
+          "Opportunity’s follow the water results shaped where later rovers were sent and how they work. Perseverance also grinds rock surfaces clean before analysing them, as Opportunity did.",
+          "It also changed what we expect of a rover. Designed for months, it worked for years, and it showed that a solar-powered machine can survive Martian winters and recover from dust for more than a decade."
         ]
       }
     },
@@ -1481,8 +1508,8 @@
     "chapters": {
       "beginning": {
         "paragraphs": [
-          "Most of what we know about Mars is about its surface. InSight was built to look inside: it was named for Interior Exploration using Seismic Investigations, Geodesy and Heat Transport, and it was designed to understand how rocky planets form and evolve by studying the structure and processes of Mars’s interior.",
-          "InSight was a joint effort: NASA and JPL led it, France’s space agency CNES provided the seismometer and Germany’s DLR provided a heat probe. It was launched on 5 May 2018 and landed in Elysium Planitia. Its landed mass was 358 kg. The mission was planned to last one Martian year, about two Earth years."
+          "Mars has been studied for centuries from the outside: its surface, its atmosphere, its poles. But no one had ever measured its inside. Earlier landers carried seismometers mounted on the lander deck, where wind and vibrations from the spacecraft itself drowned out the signal. So the size of the Martian core, whether it is liquid and whether the planet is seismically active were all open questions.",
+          "InSight was built to answer them. Its name stands for Interior Exploration using Seismic Investigations, Geodesy and Heat Transport. It landed on 26 November 2018 on a flat plain called Elysium Planitia, with a landed mass of 358 kg and a plan to work for one Martian year, about two Earth years."
         ],
         "facts": [
           {
@@ -1508,7 +1535,8 @@
       },
       "journey": {
         "paragraphs": [
-          "InSight did not move. Its journey after landing was the careful deployment of its instruments with a 2.4-metre robotic arm, then four years of listening."
+          "InSight’s first job after landing was to place its instruments on the ground, carefully. A 2.4-metre robotic arm lifted the seismometer and, on 19 December 2018, set it down on Martian soil. It was the first time a seismometer had been robotically placed on another planet. Then the arm lowered a dome over it to shield it from wind and heat swings.",
+          "Then it listened, for about four years. Dust slowly built up on the solar panels and power declined. NASA announced the end of the mission after the lander missed two communication sessions in a row."
         ],
         "timeline": [
           {
@@ -1553,7 +1581,10 @@
       },
       "science": {
         "paragraphs": [
-          "Three main experiments covered Mars’s interior in different ways: waves, rotation and heat."
+          "SEIS, the Seismic Experiment for Interior Structure, was provided by France’s space agency CNES with a principal investigator at IPGP. A seismometer measures the motion of the ground by the lag of a suspended mass, and SEIS was designed for extremely quiet signals. A marsquake sends waves through the planet. They speed up, slow down, bend and reflect at the boundaries between layers. By timing them, scientists can work out what is inside.",
+          "SEIS recorded more than 1,300 seismic events, and more than 50 were clear enough to locate. Waves that travelled through the deep interior and reflected off the boundary of the core showed a core that is completely liquid, slightly larger and less dense than predicted. That the core is liquid is deduced from how the waves cross it. What it is made of is not directly measured: a less dense core suggests lighter elements mixed in with iron, but that is an inference.",
+          "Two other instruments worked alongside SEIS, and their results are a different kind of science. RISE measured how Mars wobbles as it spins, by tracking the lander’s radio signal, which depends on the core. APSS measured local conditions such as wind, pressure and temperature, which are meteorological measurements, not seismic discoveries.",
+          "One instrument did not succeed, and the mission is more honest for saying so. HP3, the heat probe, was meant to burrow to a planned depth to measure heat flow. It did not, because the soil did not provide enough friction for the probe to dig. NASA ended the effort in January 2021."
         ],
         "instruments": [
           {
@@ -1583,7 +1614,8 @@
       },
       "hardware": {
         "paragraphs": [
-          "InSight left the most tightly instrumented patch of ground on another planet. The mission data records two inactive entries."
+          "InSight left the most tightly instrumented patch of ground on another planet. The mission data records two inactive entries: the lander, and the seismometer that sat apart from it.",
+          "The lander had a 2.4-metre arm, two round solar panels and a deck of instruments, and it had no wheels, so it stayed where it landed. SEIS was set down on the ground away from the lander so that the lander’s own movements would not shake it. The panels were the source of power, and dust on them is what finally starved the lander of electricity."
         ],
         "entities": [
           {
@@ -1607,7 +1639,8 @@
       },
       "afterlife": {
         "paragraphs": [
-          "InSight ended because of power, not damage. Dust built up on its solar panels and the lander’s power generation steadily declined. Contact was last made on 15 December 2022. After two consecutive missed communication sessions NASA retired the mission and set 15 December 2022 as the end-of-mission date."
+          "Dust accumulated on InSight’s solar panels, power generation steadily declined, and the last contact was made on 15 December 2022. After the lander missed two communication sessions in a row, NASA retired the mission and designated 15 December 2022 as the end-of-mission date.",
+          "InSight remains where it landed, inactive, on the plains of Elysium Planitia, and the data it collected are archived and in use."
         ],
         "status": [
           {
@@ -1635,8 +1668,8 @@
       },
       "legacy": {
         "paragraphs": [
-          "InSight looked deeper into Mars than any earlier mission and proved that the planet is still seismically active. It gave scientists the first comprehensive map of another planet’s deep interior.",
-          "Its method is as important as its results. Placing the seismometer on the ground, under a shield, and listening for years, showed that planetary seismology can work, even with a single station."
+          "InSight’s data are now the reference for how a rocky planet other than Earth and the Moon is built inside. They are used to test models of how planets form and cool.",
+          "It also proved technology: robotic placement of a seismometer on another planet, a wind and thermal shield that can protect it, and the use of a radio signal to measure a planet’s spin. Its method of timing waves between layers is the same technique Apollo’s seismometers used on the Moon, a shared method, not a copy."
         ]
       }
     },
@@ -1772,7 +1805,7 @@
       "beginning": {
         "paragraphs": [
           "Vesta and Ceres are the two largest bodies in the main asteroid belt. They are relics from around 4.6 billion years ago, when planets were forming, and they turned out very different: one rocky and dry, the other icy and wet. The mission data states Dawn’s goals as determining the processes and conditions that produced and modified these protoplanets and understanding the role of water in the evolution of asteroids.",
-          "Dawn launched on 27 September 2007 with a launch mass of 1,218 kg. It was powered by solar-electric ion propulsion: a very gentle engine that expels ionised xenon gas and builds up speed slowly. That efficiency was what allowed one spacecraft to orbit one world, leave, and orbit another."
+          "Dawn launched on 27 September 2007 with a launch mass of 1,218 kg. It was powered by solar-electric ion propulsion: a very gentle engine that expels ionised xenon gas and builds up speed slowly. Ion propulsion had been demonstrated before, but Dawn used it to carry a full science mission to two destinations. That efficiency was what allowed one spacecraft to orbit one world, leave, and orbit another."
         ],
         "facts": [
           {
@@ -1798,7 +1831,8 @@
       },
       "journey": {
         "paragraphs": [
-          "Dawn spent 14 months orbiting Vesta, then used its ion engines to leave and travel to Ceres. It was the first spacecraft to orbit two separate bodies beyond Earth."
+          "Dawn reached Vesta and entered orbit on 15 July 2011. For about 14 months it mapped the giant asteroid’s surface, gravity and composition, and its cameras revealed craters and grooves around the equator. Then the ion engines, which had been pushing steadily all along, carried it away.",
+          "On 6 March 2015 Dawn arrived at Ceres and became the first spacecraft to orbit a dwarf planet. It was also the first to orbit two separate bodies beyond Earth. It descended to lower and lower orbits over the next three years, close enough to resolve the bright spots that had puzzled telescopes."
         ],
         "timeline": [
           {
@@ -1848,7 +1882,9 @@
       },
       "science": {
         "paragraphs": [
-          "Three instruments did most of the work, supported by radio tracking of the spacecraft itself, which measured each world’s gravity."
+          "Three instruments did most of the work, supported by radio tracking of the spacecraft itself, which measured each world’s gravity. The Framing Camera took the images of craters, grooves, mountains and bright spots. VIR, the Visible and Infrared Mapping Spectrometer, split reflected sunlight into hundreds of colours, because different minerals absorb different colours and the pattern works like a fingerprint. GRaND, the Gamma Ray and Neutron Detector, measured elements, including hydrogen, in the top metre of the surface.",
+          "At Vesta, the picture was of a dry, differentiated world, linked to meteorites found on Earth. At Ceres, it was a surprise. The camera found more than 300 bright spots, called faculae, and the brightest area sits in Occator Crater, which is 92 km across and 4 km deep, with a dome inside a smooth-walled pit. The spectrometer identified the bright material as salts, principally sodium carbonate, what was left behind when briny water reached the surface and evaporated.",
+          "A 2017 study estimated the central bright area is about 4 million years old, while Occator Crater is about 34 million years old, so the activity came long after the impact. GRaND found hydrogen concentrated at higher latitudes, which is consistent with ice-rich ground. In another crater, Ernutet, Dawn found evidence of organic material. What the organics mean is an open question: they raise questions about chemistry that precedes life. They are not evidence of life. That brines rose from below, and that activity may be ongoing, are interpretations of the observations."
         ],
         "instruments": [
           {
@@ -1878,7 +1914,8 @@
       },
       "hardware": {
         "paragraphs": [
-          "The mission data lists one object: the Dawn spacecraft, inactive, in orbit around Ceres. It did not land there."
+          "The mission data lists one object: the Dawn spacecraft, inactive, in orbit around Ceres. It did not land there.",
+          "A bus with two long solar arrays, three xenon ion thrusters and a set of small hydrazine thrusters for orientation, Dawn traded speed for patience. The ion engines could not turn the spacecraft quickly, so the hydrazine thrusters did that work. When the hydrazine ran out, Dawn could no longer point its antenna at Earth, and its mission ended."
         ],
         "entities": [
           {
@@ -1895,7 +1932,8 @@
       },
       "afterlife": {
         "paragraphs": [
-          "Dawn did not crash. It ran out of the hydrazine fuel used to orient itself and point its antenna, which meant it could no longer talk to Earth. It transmitted for the last time on 31 October 2018, and NASA announced the end of the mission on 1 November 2018. It remains in a stable orbit around the dwarf planet Ceres, and is expected to stay there for decades."
+          "Dawn did not crash. It ran out of the hydrazine fuel used to orient itself and point its antenna, which meant it could no longer talk to Earth. It transmitted for the last time on 31 October 2018, and NASA announced the end of the mission on 1 November 2018.",
+          "It remains in a stable orbit around the dwarf planet Ceres, and is expected to stay there for decades. It is a silent moon of a world it was the first to visit."
         ],
         "status": [
           {
@@ -1924,7 +1962,7 @@
       "legacy": {
         "paragraphs": [
           "Dawn was the first mission to visit a dwarf planet and the first to orbit two different bodies in the Solar System. It transformed the asteroid belt from a field of points of light into a place with geology, a story about water and, at Ceres, active salts.",
-          "It also proved that ion propulsion could power a flagship-class science mission."
+          "It also proved that ion propulsion could power a flagship-class science mission, and its Ceres results opened the idea that small, icy worlds may harbour brines, a theme now explored across the outer Solar System."
         ]
       }
     },
@@ -2060,8 +2098,8 @@
     "chapters": {
       "beginning": {
         "paragraphs": [
-          "In February 1969 NASA approved a two-spacecraft project to explore Jupiter, managed by the Ames Research Center and built by TRW. Nobody knew whether a spacecraft could survive the asteroid belt, or Jupiter’s radiation, so the first goal was simply to find out.",
-          "Pioneer 10 launched on 2 March 1972, with a launch mass of 258 kg. It was spin-stabilised and was the first spacecraft to use all-nuclear electrical power. Its objectives in the mission data were to be the first to travel through the asteroid belt, and to obtain close-up images and data of Jupiter and its environment."
+          "In February 1969 NASA approved a two-spacecraft project to explore Jupiter, managed by the Ames Research Center and built by TRW. Nobody knew whether a spacecraft could survive the asteroid belt, or Jupiter’s radiation, so the first goal was simply to find out. Pioneer 10 was the scout, sent to learn whether anyone could follow.",
+          "It launched on 2 March 1972, with a launch mass of 258 kg. It was spin-stabilised, and was the first spacecraft to use all-nuclear electrical power, from four radioisotope generators on two booms. Its objectives were to be the first to travel through the asteroid belt, and to obtain close-up images and data of Jupiter and its environment."
         ],
         "facts": [
           {
@@ -2087,7 +2125,8 @@
       },
       "journey": {
         "paragraphs": [
-          "The journey to Jupiter took 640 days and about a billion kilometres. Along the way Pioneer 10 became the first spacecraft to cross the asteroid belt, then raced past Jupiter at about 126,000 km/h and was flung out of the inner Solar System."
+          "The journey to Jupiter took 640 days and about a billion kilometres. On 15 July 1972 Pioneer 10 became the first spacecraft to enter the asteroid belt, and on 15 February 1973 it left the belt without serious damage. The belt turned out to be far less hazardous than feared.",
+          "Then came Jupiter. Pioneer 10 began imaging on 6 November 1973 from about 16 million miles away, and at 02:26 UT on 4 December 1973 it passed about 130,000 km from the planet, at about 126,000 km/h. About 78 minutes later it passed behind the planet for a radio experiment. Jupiter’s gravity then flung it out of the inner Solar System for good."
         ],
         "timeline": [
           {
@@ -2147,7 +2186,9 @@
       },
       "science": {
         "paragraphs": [
-          "Pioneer 10 carried a modest set of instruments, picked for a mission that was mostly a risk check on Jupiter’s environment."
+          "Pioneer 10 carried a modest set of instruments, chosen for a mission that was mostly a risk check on Jupiter’s environment. It had no conventional camera. Its imaging photopolarimeter looked out through a small telescope as the whole spacecraft spun, so that each turn swept one thin line across Jupiter and the lines stacked up into an image. It also split the light by polarisation.",
+          "More than 500 images of Jupiter and its moons came back, the first close-up pictures of the planet, along with photos of Callisto, Ganymede and Europa. The charged-particle and magnetic instruments charted the radiation belts and located Jupiter’s magnetic field, which was massive, rotating with the planet and extending much farther than expected. The meteoroid detectors counted particles in the asteroid belt. Not everything worked: a photo of the volcanic moon Io was taken but lost, because the radiation overwhelmed the photopolarimeter.",
+          "The belt crossing and the radiation measurements are observations. The conclusion that Jupiter is mostly liquid is an interpretation, and that the asteroid belt is safe in general is not established: it was safe along the one path Pioneer 10 took."
         ],
         "instruments": [
           {
@@ -2190,7 +2231,9 @@
       },
       "hardware": {
         "paragraphs": [
-          "The mission data lists two items, both on the same machine: the spacecraft itself and its plaque."
+          "The mission data lists two items, both on the same machine: the spacecraft itself and its plaque.",
+          "A spin-stabilised spacecraft with a large dish antenna facing Earth and radioisotope generators on booms, Pioneer 10 was built for endurance. Its power fell below what its transmitter needed, and it went silent.",
+          "Mounted to the antenna support struts is a 6 by 9 inch gold-anodised aluminium plaque designed by Carl Sagan, Frank Drake and Linda Salzman Sagan. It shows a man and a woman, a diagram of the Solar System that includes where the spacecraft came from, and the position of the Sun relative to 14 pulsars. It was a message to anyone who might find it, a gesture, not a science experiment."
         ],
         "entities": [
           {
@@ -2214,7 +2257,7 @@
       },
       "afterlife": {
         "paragraphs": [
-          "Pioneer 10 has three end dates and they are not the same. Routine contact ended on 31 March 1997 for budget reasons. A signal on 5 August 2000 showed the spacecraft was still working. The last faint telemetry arrived on 23 January 2003, and the mission data uses that date as the end. After that, its radioisotope power source had decayed below the level needed to power the transmitter.",
+          "Pioneer 10 has three end dates and they are not the same. Routine contact ended on 31 March 1997, when budget limits stopped regular tracking at 67 AU from Earth. A signal received on 5 August 2000 showed the spacecraft was still working. The last faint telemetry arrived on 23 January 2003, and the mission data uses that date as the end. After that, its radioisotope power source had decayed below the level needed to power the transmitter.",
           "Pioneer 10 is on an outward escape trajectory. It is not being tracked, so its present position can be calculated but not confirmed, and this archive makes no claim about whether it has crossed the heliopause. NASA has said it is heading generally toward the star Aldebaran, a journey of more than two million years."
         ],
         "status": [
@@ -2243,8 +2286,8 @@
       },
       "legacy": {
         "paragraphs": [
-          "Pioneer 10 was the pathfinder. It showed that the asteroid belt could be crossed, that Jupiter’s radiation could be survived and measured, and that a spacecraft could be put on a path out of the Solar System. It was the first to do each of these.",
-          "Its plaque also began a tradition. The Golden Record on the Voyager spacecraft followed a few years later."
+          "Pioneer 10 was the pathfinder. It showed that the asteroid belt could be crossed, that Jupiter’s radiation could be survived and measured, and that a spacecraft could be put on a path out of the Solar System. Its radiation measurements and the successful belt crossing informed the design and trajectories of Voyager and later Jupiter missions.",
+          "On 17 February 1998 Voyager 1 overtook it as the most distant human-made object. Its tracking data also helped scientists chase down a tiny unexplained acceleration, the Pioneer anomaly, now attributed to a small thermal recoil force from heat radiated by the spacecraft itself. And its plaque began a tradition: the Golden Record on the Voyager spacecraft followed a few years later."
         ]
       }
     },
